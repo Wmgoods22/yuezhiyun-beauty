@@ -1,0 +1,73 @@
+site_name: 玥之韵美容美体养生馆
+site_description: 专业美容护肤 | 身体护理 | 中医养生 | 为您打造健康美丽人生
+site_author: 玥之韵美容美体养生馆
+site_url: https://yuezhiyun.github.io/
+
+# 主题配置 - 香槟金 + 深紫色系（高端奢华）
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - header.autohide
+    - toc.follow
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+# 导航配置 - 修复格式
+nav:
+  - 首页: index.md
+  - 关于我们:
+      - 品牌故事: about/story.md
+  - 服务项目:
+      - 面部护理: services/facial.md
+      - 身体护理: services/body.md
+      - 养生调理: services/wellness.md
+  - 价格套餐: pricing/member.md
+  - 预约咨询: booking/online.md
+  - 顾客评价: reviews.md
+  - 联系我们: contact.md
+
+# 插件配置
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Markdown 扩展
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+
+# 自定义配置
+extra:
+  social:
+    - icon: fontawesome/brands/weixin
+      link: "weixin://"
+  generator: false
+
+# 自定义 CSS
+extra_css:
+  - assets/custom.css
+
+# 版权信息
+copyright: |
+  &copy; 2026 玥之韵美容美体养生馆 版权所有 | 美丽热线：400-xxx-xxxx

@@ -1,0 +1,212 @@
+/* 玥之韵美容美体养生馆 - 自定义样式 */
+
+/* 橙色主题配色 */
+:root {
+  --md-primary-fg-color: #ff8c42;      /* 温暖橙色 */
+  --md-primary-fg-color--light: #ffa966;
+  --md-primary-fg-color--dark: #e67328;
+  --md-accent-fg-color: #ff6b35;       /* 活力橙红 */
+  --md-accent-fg-color--transparent: rgba(255, 107, 53, 0.1);
+}
+
+/* 首页横幅样式 */
+.hero-banner {
+  background: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-banner h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+.hero-banner p {
+  font-size: 1.2em;
+  opacity: 0.95;
+}
+
+/* 服务卡片样式 */
+.service-card {
+  background: linear-gradient(135deg, #fff5f0 0%, #ffffff 100%);
+  border: 2px solid #ffccbc;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(255, 140, 66, 0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(255, 140, 66, 0.2);
+  border-color: #ff8c42;
+}
+
+/* 价格表格样式 */
+.price-table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(255, 140, 66, 0.15);
+}
+
+.price-table th {
+  background: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%);
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.price-table tr:nth-child(even) {
+  background-color: #fff5f0;
+}
+
+.price-table tr:hover {
+  background-color: #ffe0d0;
+}
+
+/* 优惠标签 */
+.promotion-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9em;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+/* 顾客评价卡片 */
+.review-card {
+  background: linear-gradient(135deg, #fff9f5 0%, #ffffff 100%);
+  border-left: 4px solid #ff8c42;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0 2px 8px rgba(255, 140, 66, 0.1);
+}
+
+.review-card blockquote {
+  border-left: none;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+  color: #555;
+}
+
+/* 按钮样式 */
+.md-button {
+  background: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(255, 140, 66, 0.2);
+}
+
+.md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 140, 66, 0.3);
+}
+
+.md-button--primary {
+  background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+}
+
+/* 图片样式 */
+.md-content img {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 140, 66, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.md-content img:hover {
+  transform: scale(1.02);
+}
+
+/* 图标颜色 */
+.md-typeset .emoji {
+  filter: drop-shadow(0 2px 4px rgba(255, 140, 66, 0.3));
+}
+
+/* 提示框样式 */
+.admonition {
+  border-radius: 10px;
+  border-left-width: 5px;
+}
+
+.admonition.tip {
+  border-left-color: #ff8c42;
+}
+
+.admonition.note {
+  border-left-color: #ff6b35;
+}
+
+.admonition.info {
+  border-left-color: #ffa966;
+}
+
+/* 导航栏样式 */
+.md-header {
+  background: linear-gradient(135deg, #ff8c42 0%, #ff6b35 100%);
+  box-shadow: 0 2px 10px rgba(255, 140, 66, 0.3);
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .hero-banner h1 {
+    font-size: 1.8em;
+  }
+  
+  .hero-banner p {
+    font-size: 1em;
+  }
+  
+  .service-card {
+    padding: 15px;
+  }
+}
+
+/* 加载动画 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.md-content {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* 星级评分 */
+.rating {
+  color: #ff8c42;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
+
+/* 价格高亮 */
+.price-highlight {
+  color: #ff6b35;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+/* 分割线 */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff8c42, transparent);
+  margin: 30px 0;
+}
