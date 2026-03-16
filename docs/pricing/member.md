@@ -94,7 +94,7 @@
 
 <div style="text-align: center; margin-top: 30px;" >
 
-[立即充值](#){ .md-button .md-button--primary style="font-size: 18px; padding: 16px 50px;" }
+<a href="#" class="md-button md-button--primary" style="font-size: 18px; padding: 16px 50px;">立即充值</a>
 
 </div>
 
@@ -278,7 +278,7 @@
 
 ## 成为会员 尊享专属权益
 
-[立即办理](#){ .md-button .md-button--primary style="font-size: 18px; padding: 18px 50px;" }
+<a href="#" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即办理</a>
 
 <a href="tel:400-xxx-xxxx" class="md-button" style="font-size: 18px; padding: 18px 50px;">咨询客服</a>
 

@@ -75,28 +75,28 @@
 🏆
 **ISO9001 质量认证**
 国际质量管理体系认证
-[查看证书](about/certification.md)
+<a href="about/certification.md" class="md-button">查看证书</a>
 </div>
 
 <div class="certification-item" >
 🏥
 **卫生评级 A 级**
 医疗卫生标准认证
-[查看证书](about/certification.md)
+<a href="about/certification.md" class="md-button">查看证书</a>
 </div>
 
 <div class="certification-item" >
 📋
 **美容行业协会会员**
 中国美容美发协会
-[查看证书](about/certification.md)
+<a href="about/certification.md" class="md-button">查看证书</a>
 </div>
 
 <div class="certification-item" >
 ⭐
 **消费者信赖品牌**
 2023-2024 连续获奖
-[查看证书](about/certification.md)
+<a href="about/certification.md" class="md-button">查看证书</a>
 </div>
 
 </div>
@@ -331,7 +331,7 @@
     
     24 小时在线回复
 
--   :material-calendar-plus: **在线预约**
+-   <i class="material-icons">event_available</i> **在线预约**
 
     ---
 
@@ -351,7 +351,7 @@
 
 **专业团队 · 高端产品 · 贴心服务**
 
-[立即预约](booking/online.md){ .md-button .md-button--primary style="font-size: 18px; padding: 18px 50px;" }
+<a href="booking/online.md" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即预约</a>
 
 <a href="pricing/member.md" class="md-button" style="font-size: 18px; padding: 18px 50px;">查看价格</a>
 
@@ -385,7 +385,7 @@
 - 🔥 张玥（抗衰专家）
 - ⭐ 李娜（祛痘专家）
 
-[立即预约](booking/online.md){ .float-btn }
+<a href="booking/online.md" class="float-btn">立即预约</a>
 
 [电话咨询](tel:400-xxx-xxxx)
 
