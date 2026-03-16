@@ -6,47 +6,59 @@
 
 ## 📍 门店信息
 
-<div class="grid cards" markdown>
+<div class="grid cards">
 
--   :material-map-marker:{ .lg .middle } __门店地址__
+<div class="card" markdown>
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">location_on</i>
+**门店地址**
 
-    ---
+---
 
-    **玥之韵美容美体养生馆**
+**玥之韵美容美体养生馆**
 
-    重庆市渝北区回兴街道宝环路 1 号附 83 号
+重庆市渝北区回兴街道宝环路 1 号附 83 号
 
-    [查看地图 →](https://uri.amap.com/marker?position=106.603,29.721&name=玥之韵美容美体养生馆)
+[查看地图 →](https://uri.amap.com/marker?position=106.603,29.721&name=玥之韵美容美体养生馆)
+</div>
 
--   :material-phone:{ .lg .middle } __咨询热线__
+<div class="card" markdown>
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">phone</i>
+**咨询热线**
 
-    ---
+---
 
-    **153-3033-1418**
+**153-3033-1418**
 
-    9:30-18:30（全年无休）
+9:30-18:30（全年无休）
 
-    [立即拨打 →](tel:15330331418)
+[立即拨打 →](tel:15330331418)
+</div>
 
--   :material-message:{ .lg .middle } __官方微信__
+<div class="card" markdown>
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">chat</i>
+**官方微信**
 
-    ---
+---
 
-    **wxid_s0ivdejs5nkj22**
+**wxid_s0ivdejs5nkj22**
 
-    扫码添加客服
+扫码添加客服
 
-    ![](assets/qrcode.png){ width="150" }
+![](assets/qrcode.png){ width="150" }
+</div>
 
--   :material-clock:{ .lg .middle } __营业时间__
+<div class="card" markdown>
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">schedule</i>
+**营业时间**
 
-    ---
+---
 
-    **9:30 - 18:30**
+**9:30 - 18:30**
 
-    全年无休
+全年无休
 
-    节假日正常营业
+节假日正常营业
+</div>
 
 </div>
 
