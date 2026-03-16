@@ -69,30 +69,30 @@
 
 <img src="assets/certificate.jpg" alt="资质证书" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
-<div class="certification-grid" markdown>
+<div class="certification-grid" >
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 🏆
 **ISO9001 质量认证**
 国际质量管理体系认证
 [查看证书](about/certification.md)
 </div>
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 🏥
 **卫生评级 A 级**
 医疗卫生标准认证
 [查看证书](about/certification.md)
 </div>
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 📋
 **美容行业协会会员**
 中国美容美发协会
 [查看证书](about/certification.md)
 </div>
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 ⭐
 **消费者信赖品牌**
 2023-2024 连续获奖
@@ -101,9 +101,9 @@
 
 </div>
 
-<div style="text-align: center; margin: 20px 0;" markdown>
+<div style="text-align: center; margin: 20px 0;" >
 
-[查看全部资质认证](about/certification.md){ .md-button }
+<a href="about/certification.md" class="md-button">查看全部资质认证</a>
 
 </div>
 
@@ -111,7 +111,7 @@
 
 ## 优雅环境展示
 
-<div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 40px 0;" markdown>
+<div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 40px 0;" >
 
 
 
@@ -128,11 +128,11 @@
 
 ## 专业技师团队
 
-<div class="team-card" markdown>
+<div class="team-card" >
 
-![张玥](assets/team.jpg){ .team-photo }
+<img src="assets/team.jpg" alt="张玥" class="team-photo" />
 
-<div class="team-info" markdown>
+<div class="team-info" >
 
 #### 张玥 | 技术总监
 
@@ -146,11 +146,11 @@
 
 </div>
 
-<div class="team-card" markdown>
+<div class="team-card" >
 
-![李娜](assets/team.jpg){ .team-photo }
+<img src="assets/team.jpg" alt="李娜" class="team-photo" />
 
-<div class="team-info" markdown>
+<div class="team-info" >
 
 #### 李娜 | 高级美容师
 
@@ -166,7 +166,7 @@
 
 <div style="text-align: center; margin: 30px 0;">
 
-[查看全部技师团队](about/team.md){ .md-button }
+<a href="about/team.md" class="md-button">查看全部技师团队</a>
 
 </div>
 
@@ -174,7 +174,7 @@
 
 ## 顾客真实评价
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -184,7 +184,7 @@
 
 </div>
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -194,7 +194,7 @@
 
 </div>
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -204,7 +204,7 @@
 
 </div>
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -216,7 +216,7 @@
 
 <div style="text-align: center; margin: 30px 0;">
 
-[查看更多顾客评价](reviews.md){ .md-button }
+<a href="reviews.md" class="md-button">查看更多顾客评价</a>
 
 </div>
 
@@ -226,7 +226,7 @@
 
 ## 限时优惠活动
 
-<div id="promotion" class="admonition tip" style="background: #F9F7F2; border-left-color: #C9A962; padding: 25px; border-radius: 6px;" markdown>
+<div id="promotion" class="admonition tip" style="background: #F9F7F2; border-left-color: #C9A962; padding: 25px; border-radius: 6px;" >
 <span class="admonition-title" style="color: #5C4A3D; font-size: 18px;">🎁 新客专享</span>
 
 **首次到店体验价 99 元**（原价 298 元）
@@ -235,11 +235,11 @@
 - 精美礼品一份
 - 会员专属优惠券礼包
 
-[立即领取](booking/online.md){ .md-button }
+<a href="booking/online.md" class="md-button">立即领取</a>
 
 </div>
 
-<div class="service-card" style="margin: 30px 0;" markdown>
+<div class="service-card" style="margin: 30px 0;" >
 
 ### 春季焕肤套餐
 
@@ -252,7 +252,7 @@
 
 有效期：3 个月 | 限本人使用
 
-[立即抢购](pricing/member.md){ .md-button }
+<a href="pricing/member.md" class="md-button">立即抢购</a>
 
 </div>
 
@@ -262,9 +262,9 @@
 
 ## 会员权益体系
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
--   :material-medal: **银卡会员**
+-   <i class="material-icons">medal</i> **银卡会员**
 
     ---
 
@@ -275,7 +275,7 @@
     - 优先预约技师
     - 会员专属礼品
 
--   :material-star: **金卡会员**
+-   <i class="material-icons">star</i> **金卡会员**
 
     ---
 
@@ -286,7 +286,7 @@
     - 免费产品体验
     - 生日豪华护理
 
--   :material-diamond: **钻石会员**
+-   <i class="material-icons">diamond</i> **钻石会员**
 
     ---
 
@@ -301,7 +301,7 @@
 
 <div style="text-align: center; margin: 30px 0;">
 
-[了解会员详情](pricing/member.md){ .md-button }
+<a href="pricing/member.md" class="md-button">了解会员详情</a>
 
 </div>
 
@@ -309,9 +309,9 @@
 
 ## 预约方式
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
--   :material-phone: **电话预约**
+-   <i class="material-icons">phone</i> **电话预约**
 
     ---
 
@@ -321,7 +321,7 @@
     
     [立即拨打](tel:400-xxx-xxxx)
 
--   :material-message: **微信预约**
+-   <i class="material-icons">message</i> **微信预约**
 
     ---
 
@@ -345,7 +345,7 @@
 
 ---
 
-<div style="text-align: center; margin: 60px 0; padding: 40px; background: #F9F7F2; border-radius: 8px; border-top: 3px solid #C9A962;" markdown>
+<div style="text-align: center; margin: 60px 0; padding: 40px; background: #F9F7F2; border-radius: 8px; border-top: 3px solid #C9A962;" >
 
 ## 开启您的美丽之旅
 
@@ -353,7 +353,7 @@
 
 [立即预约](booking/online.md){ .md-button .md-button--primary style="font-size: 18px; padding: 18px 50px;" }
 
-[查看价格](pricing/member.md){ .md-button style="font-size: 18px; padding: 18px 50px;" }
+<a href="pricing/member.md" class="md-button" style="font-size: 18px; padding: 18px 50px;">查看价格</a>
 
 </div>
 
@@ -363,7 +363,7 @@
 
 ---
 
-<div style="text-align: center; color: #888; font-size: 14px; margin-top: 30px;" markdown>
+<div style="text-align: center; color: #888; font-size: 14px; margin-top: 30px;" >
 
 [隐私政策](privacy.md) | [服务条款](terms.md) | [免责声明](disclaimer.md)
 
@@ -373,7 +373,7 @@
 
 ## 预约悬浮框
 
-<div class="booking-float" markdown>
+<div class="booking-float" >
 #### 📅 紧急预约
 
 **1 小时内可约时段**:

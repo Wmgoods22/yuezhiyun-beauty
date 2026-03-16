@@ -8,9 +8,9 @@
 
 ## ⭐ 顾客好评
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
--   :material-star:{ .lg .middle } __王女士 · VIP 会员__
+-   <i class="material-icons">star</i>{ .lg .middle } __王女士 · VIP 会员__
 
     ---
 
@@ -19,7 +19,7 @@
     💆‍♀️ 项目：抗衰紧致护理  
     ⭐ 评分：★★★★★
 
--   :material-star:{ .lg .middle } __李女士 · 忠实顾客__
+-   <i class="material-icons">star</i>{ .lg .middle } __李女士 · 忠实顾客__
 
     ---
 
@@ -28,7 +28,7 @@
     💆‍♀️ 项目：深层清洁补水  
     ⭐ 评分：★★★★★
 
--   :material-star:{ .lg .middle } __张女士 · 养生爱好者__
+-   <i class="material-icons">star</i>{ .lg .middle } __张女士 · 养生爱好者__
 
     ---
 
@@ -37,7 +37,7 @@
     🌿 项目：艾灸养生  
     ⭐ 评分：★★★★★
 
--   :material-star:{ .lg .middle } __陈小姐 · 新顾客__
+-   <i class="material-icons">star</i>{ .lg .middle } __陈小姐 · 新顾客__
 
     ---
 
@@ -46,7 +46,7 @@
     💆‍♀️ 项目：痘痘肌调理  
     ⭐ 评分：★★★★★
 
--   :material-star:{ .lg .middle } __刘女士 · 钻石会员__
+-   <i class="material-icons">star</i>{ .lg .middle } __刘女士 · 钻石会员__
 
     ---
 
@@ -55,7 +55,7 @@
     💆‍♀️ 项目：全身精油 SPA  
     ⭐ 评分：★★★★★
 
--   :material-star:{ .lg .middle } __赵女士 · 白领__
+-   <i class="material-icons">star</i>{ .lg .middle } __赵女士 · 白领__
 
     ---
 
@@ -100,7 +100,7 @@
 
 > 真实顾客护理前后对比（经顾客授权发布）
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">📷 效果展示</span>
 
 因涉及顾客隐私，更多案例请到店咨询或添加官方微信查看。
@@ -111,12 +111,12 @@
 
 ## 💌 留言墙
 
-<div class="admonition tip" markdown>
+<div class="admonition tip" >
 <span class="admonition-title">✏️ 写下您的体验</span>
 
 欢迎分享您在玥之韵的美好体验！
 
-[**👉 发表评价**](#){ .md-button }
+<a href="#" class="md-button">**👉 发表评价**</a>
 
 </div>
 

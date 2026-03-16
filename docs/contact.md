@@ -10,7 +10,7 @@
 
 <div class="grid cards">
 
-<div class="card" markdown>
+<div class="card" >
 <i class="material-icons" style="font-size: 48px; color: #C9A962;">location_on</i>
 **门店地址**
 
@@ -23,7 +23,7 @@
 [查看地图 →](https://uri.amap.com/marker?position=106.603,29.721&name=玥之韵美容美体养生馆)
 </div>
 
-<div class="card" markdown>
+<div class="card" >
 <i class="material-icons" style="font-size: 48px; color: #C9A962;">phone</i>
 **咨询热线**
 
@@ -36,7 +36,7 @@
 [立即拨打 →](tel:15330331418)
 </div>
 
-<div class="card" markdown>
+<div class="card" >
 <i class="material-icons" style="font-size: 48px; color: #C9A962;">chat</i>
 **官方微信**
 
@@ -46,10 +46,10 @@
 
 扫码添加客服
 
-![](assets/qrcode.png){ width="150" }
+<img src="assets/qrcode.png" alt="" width="150" />
 </div>
 
-<div class="card" markdown>
+<div class="card" >
 <i class="material-icons" style="font-size: 48px; color: #C9A962;">schedule</i>
 **营业时间**
 
@@ -85,7 +85,7 @@
 
 ## 📧 在线咨询
 
-<div class="admonition info" markdown>
+<div class="admonition info" >
 <span class="admonition-title">💬 联系方式</span>
 
 **微信**: wxid_s0ivdejs5nkj22  
@@ -104,7 +104,7 @@
 
 ## 💬 顾客留言
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">📝 留言咨询</span>
 
 如有任何问题或建议，欢迎留言：
@@ -114,7 +114,7 @@
 - 投诉建议
 - 合作洽谈
 
-[**👉 在线留言**](#){ .md-button }
+<a href="#" class="md-button">**👉 在线留言**</a>
 
 </div>
 
@@ -134,7 +134,7 @@
 - 🤝 活动赞助
 - 🤝 场地租赁
 
-[**👉 合作咨询**](tel:400-xxx-xxxx){ .md-button .md-button--primary }
+<a href="tel:400-xxx-xxxx" class="md-button md-button--primary">**👉 合作咨询**</a>
 
 ---
 

@@ -8,9 +8,9 @@
 
 ## 会员等级权益
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
--   :material-medal: **银卡会员**
+-   <i class="material-icons">medal</i> **银卡会员**
 
     ---
 
@@ -18,10 +18,10 @@
     
     #### 核心权益
     
-    - :material-percent: 消费享 **9 折**
+    - <i class="material-icons">percent</i> 消费享 **9 折**
     - :material-cake-variant: 生日免费护理 1 次
     - :material-calendar-clock: 优先预约技师
-    - :material-gift: 会员专属礼品
+    - <i class="material-icons">gift</i> 会员专属礼品
     
     #### 额外福利
     
@@ -29,9 +29,9 @@
     - 会员日双倍积分
     - 推荐好友返现 100 元
     
-    [立即办理](#){ .md-button }
+    <a href="#" class="md-button">立即办理</a>
 
--   :material-star: **金卡会员**
+-   <i class="material-icons">star</i> **金卡会员**
 
     ---
 
@@ -39,10 +39,10 @@
     
     #### 核心权益
     
-    - :material-percent: 消费享 **85 折**
+    - <i class="material-icons">percent</i> 消费享 **85 折**
     - :material-face-woman: 专属美容顾问
-    - :material-spa: 免费产品体验
-    - :material-cake: 生日豪华护理
+    - <i class="material-icons">spa</i> 免费产品体验
+    - <i class="material-icons">cake</i> 生日豪华护理
     
     #### 额外福利
     
@@ -51,9 +51,9 @@
     - 推荐好友返现 300 元
     - 年度感恩礼品
     
-    [立即办理](#){ .md-button .md-button--primary }
+    <a href="#" class="md-button md-button--primary">立即办理</a>
 
--   :material-diamond: **钻石会员**
+-   <i class="material-icons">diamond</i> **钻石会员**
 
     ---
 
@@ -61,10 +61,10 @@
     
     #### 核心权益
     
-    - :material-percent: 消费享 **8 折**
-    - :material-door: VIP 专属房间
+    - <i class="material-icons">percent</i> 消费享 **8 折**
+    - <i class="material-icons">door</i> VIP 专属房间
     - :material-account-tie: 私人定制方案
-    - :material-infinity: 全年无限次预约
+    - <i class="material-icons">infinity</i> 全年无限次预约
     
     #### 额外福利
     
@@ -73,7 +73,7 @@
     - 推荐好友返现 500 元
     - 年度奢华旅游
     
-    [立即办理](#){ .md-button .md-button--primary }
+    <a href="#" class="md-button md-button--primary">立即办理</a>
 
 </div>
 
@@ -81,7 +81,7 @@
 
 ## 会员充值优惠
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 限时充值活动
 
@@ -92,7 +92,7 @@
 | ¥10,000 | ¥2,500 | ¥12,500 | **80 折** |
 | ¥20,000 | ¥6,000 | ¥26,000 | **77 折** |
 
-<div style="text-align: center; margin-top: 30px;" markdown>
+<div style="text-align: center; margin-top: 30px;" >
 
 [立即充值](#){ .md-button .md-button--primary style="font-size: 18px; padding: 16px 50px;" }
 
@@ -102,7 +102,7 @@
 
 </div>
 
-<div class="admonition tip" markdown>
+<div class="admonition tip" >
 <span class="admonition-title">🎁 新客专享</span>
 
 首次充值额外赠送：
@@ -116,7 +116,7 @@
 
 ## 会员专属服务
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
 -   :material-calendar-check: **优先预约**
 
@@ -126,7 +126,7 @@
     黄金时段优先选
     紧急预约优先排
 
--   :material-gift: **生日礼遇**
+-   <i class="material-icons">gift</i> **生日礼遇**
 
     ---
 
@@ -142,7 +142,7 @@
     一对一服务
     个性化方案定制
 
--   :material-shopping: **产品折扣**
+-   <i class="material-icons">shopping</i> **产品折扣**
 
     ---
 
@@ -156,7 +156,7 @@
 
 ## 会员成长体系
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 积分规则
 
@@ -180,7 +180,7 @@
 
 ## 会员故事
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -190,7 +190,7 @@
 
 </div>
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -204,28 +204,28 @@
 
 ## 常见问题
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">会员有效期</span>
 
 会员资格永久有效，充值金额无使用期限。
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">退款政策</span>
 
 支持退款，按实际消费次数扣除（原价计算），剩余金额退还。
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">会员转让</span>
 
 会员资格可转让 1 次，需到前台办理手续。
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">价格调整</span>
 
 会员充值金额永久有效，价格调整不影响已购套餐。
@@ -236,7 +236,7 @@
 
 ## 办理流程
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
 -   :material-numeric-1-circle: **到店咨询**
 
@@ -274,13 +274,13 @@
 
 ---
 
-<div style="text-align: center; margin: 50px 0; padding: 40px; background: #F9F7F2; border-radius: 8px; border-top: 3px solid #C9A962;" markdown>
+<div style="text-align: center; margin: 50px 0; padding: 40px; background: #F9F7F2; border-radius: 8px; border-top: 3px solid #C9A962;" >
 
 ## 成为会员 尊享专属权益
 
 [立即办理](#){ .md-button .md-button--primary style="font-size: 18px; padding: 18px 50px;" }
 
-[咨询客服](tel:400-xxx-xxxx){ .md-button style="font-size: 18px; padding: 18px 50px;" }
+<a href="tel:400-xxx-xxxx" class="md-button" style="font-size: 18px; padding: 18px 50px;">咨询客服</a>
 
 </div>
 

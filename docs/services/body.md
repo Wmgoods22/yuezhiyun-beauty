@@ -122,7 +122,7 @@
 
 ---
 
-[**👉 立即预约身体护理**](../booking/online.md){ .md-button .md-button--primary }
+<a href="../booking/online.md" class="md-button md-button--primary">**👉 立即预约身体护理**</a>
 
 ---
 

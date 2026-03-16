@@ -155,7 +155,7 @@
 
 ## 📞 联系我们
 
-<div class="admonition info" markdown>
+<div class="admonition info" >
 <span class="admonition-title">📍 门店信息</span>
 
 **地址**: [您的详细地址]  
@@ -165,7 +165,7 @@
 
 </div>
 
-[**👉 立即预约体验**](../booking/online.md){ .md-button .md-button--primary }
+<a href="../booking/online.md" class="md-button md-button--primary">**👉 立即预约体验**</a>
 
 ---
 

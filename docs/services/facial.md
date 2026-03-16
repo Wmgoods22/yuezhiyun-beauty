@@ -8,14 +8,14 @@
 
 ## 基础护理系列
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 深层清洁补水护理
 
 **时长**: 60 分钟  
 **适用人群**: 所有肤质，特别是干燥缺水肌肤
 
-<div class="price-table" markdown>
+<div class="price-table" >
 
 | 价格类型 | 价格 | 说明 |
 |---------|------|------|
@@ -45,20 +45,20 @@
 - 无重金属
 - 孕妇可用
 
-[立即预约](../booking/online.md){ .md-button }
+<a href="../booking/online.md" class="md-button">立即预约</a>
 
 </div>
 
 <img src="../assets/service-detail.jpg" alt="护理环境" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 抗衰老紧致护理
 
 **时长**: 90 分钟  
 **适用人群**: 25 岁以上，肌肤松弛、有细纹
 
-<div class="price-table" markdown>
+<div class="price-table" >
 
 | 价格类型 | 价格 | 说明 |
 |---------|------|------|
@@ -88,18 +88,18 @@
 - 小分子胶原蛋白
 - 临床验证有效
 
-[立即预约](../booking/online.md){ .md-button }
+<a href="../booking/online.md" class="md-button">立即预约</a>
 
 </div>
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 痘痘肌调理护理
 
 **时长**: 75 分钟  
 **适用人群**: 青春痘、成人痘、油脂分泌旺盛
 
-<div class="price-table" markdown>
+<div class="price-table" >
 
 | 价格类型 | 价格 | 说明 |
 |---------|------|------|
@@ -127,18 +127,18 @@
 - 护理 2 个月，痘痘复发率降低 80%
 - 无效可重做 1 次
 
-[立即预约](../booking/online.md){ .md-button }
+<a href="../booking/online.md" class="md-button">立即预约</a>
 
 </div>
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 敏感肌修复护理
 
 **时长**: 80 分钟  
 **适用人群**: 敏感脆弱、容易泛红、屏障受损
 
-<div class="price-table" markdown>
+<div class="price-table" >
 
 | 价格类型 | 价格 | 说明 |
 |---------|------|------|
@@ -168,7 +168,7 @@
 - 无色素
 - 通过敏感测试
 
-[立即预约](../booking/online.md){ .md-button }
+<a href="../booking/online.md" class="md-button">立即预约</a>
 
 </div>
 
@@ -176,14 +176,14 @@
 
 ## 高端定制系列
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 黄金焕肤护理
 
 **时长**: 120 分钟  
 **适用人群**: 追求奢华体验、重要场合前护理
 
-<div class="price-table" markdown>
+<div class="price-table" >
 
 | 价格类型 | 价格 | 说明 |
 |---------|------|------|
@@ -200,18 +200,18 @@
 - 即时提亮效果
 - 名媛贵妇首选
 
-[立即预约](../booking/online.md){ .md-button .md-button--primary }
+<a href="../booking/online.md" class="md-button md-button--primary">立即预约</a>
 
 </div>
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 瑞士抗衰护理
 
 **时长**: 150 分钟  
 **适用人群**: 高端抗衰需求、追求顶级效果
 
-<div class="price-table" markdown>
+<div class="price-table" >
 
 | 价格类型 | 价格 | 说明 |
 |---------|------|------|
@@ -228,7 +228,7 @@
 - 全脸 + 颈部 + 手部
 - 顶级奢华体验
 
-[立即预约](../booking/online.md){ .md-button .md-button--primary }
+<a href="../booking/online.md" class="md-button md-button--primary">立即预约</a>
 
 </div>
 
@@ -236,7 +236,7 @@
 
 ## 护理套餐
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 季卡套餐
 
@@ -251,11 +251,11 @@
 - 可转让 1 次
 - 支持退款（按原价扣除已使用次数）
 
-[立即抢购](../pricing/member.md){ .md-button }
+<a href="../pricing/member.md" class="md-button">立即抢购</a>
 
 </div>
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 年卡套餐
 
@@ -271,7 +271,7 @@
 - 可转让 1 次
 - 支持退款
 
-[立即抢购](../pricing/member.md){ .md-button .md-button--primary }
+<a href="../pricing/member.md" class="md-button md-button--primary">立即抢购</a>
 
 </div>
 
@@ -279,7 +279,7 @@
 
 ## 用户真实案例
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -294,7 +294,7 @@
 
 </div>
 
-<div class="review-card" markdown>
+<div class="review-card" >
 
 <div class="rating">★★★★★</div>
 
@@ -313,7 +313,7 @@
 
 ## 常见问题
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">护理频率建议</span>
 
 - 基础补水：每周 1 次
@@ -323,7 +323,7 @@
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">护理后注意事项</span>
 
 1. 24 小时内避免化妆
@@ -333,7 +333,7 @@
 
 </div>
 
-<div class="admonition note" markdown>
+<div class="admonition note" >
 <span class="admonition-title">过敏测试</span>
 
 首次护理前可免费做过敏测试，确保产品安全。如有过敏史请提前告知。
@@ -342,7 +342,7 @@
 
 ---
 
-<div style="text-align: center; margin: 50px 0; padding: 40px; background: #F9F7F2; border-radius: 8px; border-top: 3px solid #C9A962;" markdown>
+<div style="text-align: center; margin: 50px 0; padding: 40px; background: #F9F7F2; border-radius: 8px; border-top: 3px solid #C9A962;" >
 
 ## 开启您的美丽之旅
 
@@ -350,7 +350,7 @@
 
 [立即预约](../booking/online.md){ .md-button .md-button--primary style="font-size: 18px; padding: 18px 50px;" }
 
-[咨询客服](tel:400-xxx-xxxx){ .md-button style="font-size: 18px; padding: 18px 50px;" }
+<a href="tel:400-xxx-xxxx" class="md-button" style="font-size: 18px; padding: 18px 50px;">咨询客服</a>
 
 </div>
 

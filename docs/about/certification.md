@@ -8,9 +8,9 @@
 
 ## 品牌资质认证
 
-<div class="certification-grid" markdown>
+<div class="certification-grid" >
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 🏆
 **ISO9001 质量认证**
 国际质量管理体系认证
@@ -18,7 +18,7 @@
 [查看证书](#){ style="color: #C9A962;" }
 </div>
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 🏥
 **卫生评级 A 级**
 公共场所卫生许可证
@@ -26,7 +26,7 @@
 [查看证书](#){ style="color: #C9A962;" }
 </div>
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 📋
 **美容行业协会会员**
 中国美容美发协会会员单位
@@ -34,7 +34,7 @@
 [查看证书](#){ style="color: #C9A962;" }
 </div>
 
-<div class="certification-item" markdown>
+<div class="certification-item" >
 ⭐
 **消费者信赖品牌**
 2023-2024 年度消费者信赖品牌
@@ -48,7 +48,7 @@
 
 ## 专业认证说明
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### ISO9001 质量管理体系认证
 
@@ -70,7 +70,7 @@
 
 </div>
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 卫生许可证 A 级
 
@@ -92,7 +92,7 @@
 
 </div>
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 美容行业协会会员
 
@@ -118,11 +118,11 @@
 
 ## 技师资质认证
 
-<div class="team-card" markdown>
+<div class="team-card" >
 
-![张玥](assets/team.jpg){ .team-photo }
+<img src="assets/team.jpg" alt="张玥" class="team-photo" />
 
-<div class="team-info" markdown>
+<div class="team-info" >
 
 #### 张玥 | 技术总监
 
@@ -145,11 +145,11 @@
 
 </div>
 
-<div class="team-card" markdown>
+<div class="team-card" >
 
-![李娜](assets/team.jpg){ .team-photo }
+<img src="assets/team.jpg" alt="李娜" class="team-photo" />
 
-<div class="team-info" markdown>
+<div class="team-info" >
 
 #### 李娜 | 高级美容师
 
@@ -172,11 +172,11 @@
 
 </div>
 
-<div class="team-card" markdown>
+<div class="team-card" >
 
-![王芳](assets/team.jpg){ .team-photo }
+<img src="assets/team.jpg" alt="王芳" class="team-photo" />
 
-<div class="team-info" markdown>
+<div class="team-info" >
 
 #### 王芳 | 养生调理师
 
@@ -203,7 +203,7 @@
 
 ## 产品品质认证
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
 -   :material-shield-check: **法国进口品牌**
 
@@ -214,7 +214,7 @@
     海关进口检验合格
     正品保证 假一赔十
 
--   :material-leaf: **天然有机成分**
+-   <i class="material-icons">leaf</i> **天然有机成分**
 
     ---
 
@@ -223,7 +223,7 @@
     孕妇可用
     敏感肌适用
 
--   :material-flask: **专利技术成分**
+-   <i class="material-icons">flask</i> **专利技术成分**
 
     ---
 
@@ -247,7 +247,7 @@
 
 ## 服务流程标准
 
-<div class="service-card" markdown>
+<div class="service-card" >
 
 ### 7 步标准化服务流程
 
@@ -292,7 +292,7 @@
 
 ## 顾客权益保障
 
-<div class="grid cards" markdown>
+<div class="grid cards" >
 
 -   :material-shield-account: **隐私保护**
 
@@ -303,7 +303,7 @@
     签署隐私保护协议
     数据加密存储
 
--   :material-handshake: **消费保障**
+-   <i class="material-icons">handshake</i> **消费保障**
 
     ---
 
@@ -312,7 +312,7 @@
     支持退款 按规扣除
     投诉渠道畅通
 
--   :material-medal: **品质保证**
+-   <i class="material-icons">medal</i> **品质保证**
 
     ---
 
@@ -336,7 +336,7 @@
 
 ## 荣誉证书
 
-<div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;" markdown>
+<div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;" >
 
 <img src="assets/products.jpg" alt="荣誉证书 1" style="width: 100%; border-radius: 6px;" />
 <img src="assets/products.jpg" alt="荣誉证书 2" style="width: 100%; border-radius: 6px;" />
@@ -349,7 +349,7 @@
 
 ## 联系我们
 
-<div class="admonition info" markdown>
+<div class="admonition info" >
 <span class="admonition-title">📞 资质咨询</span>
 
 如对资质认证有任何疑问，欢迎咨询：
