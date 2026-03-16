@@ -48,6 +48,8 @@
 2. 经络疏通 (40 分钟)
 3. 穴位按摩 (25 分钟)
 4. 艾灸温养 (15 分钟)
+![养生环境](../assets/wellness.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ```
 
 #### 适合人群

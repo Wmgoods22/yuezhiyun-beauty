@@ -98,6 +98,8 @@
 
 <div style="text-align: center; margin-top: 30px;" markdown>
 [提交预约](#){ .md-button .md-button--primary style="font-size: 18px; padding: 16px 60px;" }
+![预约流程](../assets/office.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 </div>
 
 </form>

@@ -49,6 +49,8 @@
 
 </div>
 
+![护理环境](../assets/service-detail.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 <div class="service-card" markdown>
 
 ### 抗衰老紧致护理

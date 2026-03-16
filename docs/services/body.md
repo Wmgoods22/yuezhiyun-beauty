@@ -33,6 +33,8 @@
 
 ---
 
+![按摩环境](../assets/service-detail2.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ### 2. 中式推拿按摩
 
 **时长**: 60 分钟 | **价格**: ¥398

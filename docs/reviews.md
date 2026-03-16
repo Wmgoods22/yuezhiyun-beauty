@@ -78,6 +78,8 @@
 | 服务质量 | ⭐⭐⭐⭐⭐ 4.9 | 2,808 |
 | 环境卫生 | ⭐⭐⭐⭐⭐ 4.8 | 2,808 |
 | 服务态度 | ⭐⭐⭐⭐⭐ 4.9 | 2,808 |
+![顾客满意](../assets/promotion.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 
 **综合评分**: ⭐⭐⭐⭐⭐ **4.9/5.0** (基于 2,808 条评价)
 

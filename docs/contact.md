@@ -2,6 +2,8 @@
 
 > 期待光临 · 美丽相约
 
+![联系我们](assets/contact-banner.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 📍 门店信息

@@ -98,6 +98,8 @@
 
 </div>
 
+![会员权益](../assets/membership.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 </div>
 
 <div class="admonition tip" markdown>
