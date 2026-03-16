@@ -2,6 +2,8 @@
 
 > 专业认证 · 品质保障 · 安心选择
 
+![认证证书](../assets/certificate.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 品牌资质认证

@@ -2,6 +2,8 @@
 
 > 真实评价 · 口碑见证
 
+![满意顾客](../assets/treatment.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## ⭐ 顾客好评

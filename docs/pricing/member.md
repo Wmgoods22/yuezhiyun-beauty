@@ -2,6 +2,8 @@
 
 > 充值享折扣 · 专属权益 · 尊贵体验
 
+![VIP 服务](../assets/skincare.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 会员等级权益

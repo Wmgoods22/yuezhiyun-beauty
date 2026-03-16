@@ -2,6 +2,8 @@
 
 > 4 步快速预约 · 专业贴心服务
 
+![预约服务](../assets/facial-treatment.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 预约流程

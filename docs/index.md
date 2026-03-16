@@ -6,6 +6,8 @@
 
 <div class="hero-section" markdown>
 
+![美丽护理](assets/skincare-treatment.jpg){ style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 8px;" }
+
 # 让美丽与健康同行
 
 ### 玥之韵 - 15 年专业美容养生专家
@@ -71,6 +73,8 @@
 ---
 
 ## 品牌资质认证
+
+![资质证书](assets/certificate.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
 
 <div class="certification-grid" markdown>
 
