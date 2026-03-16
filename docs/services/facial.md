@@ -2,6 +2,8 @@
 
 > 专业面部护理 · 焕发肌肤光彩
 
+![面部护理](../assets/facial-treatment.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 基础护理系列

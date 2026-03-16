@@ -2,6 +2,8 @@
 
 > 中医养生 · 调理身心 · 健康长寿
 
+![养生调理](../assets/wellness.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 🌟 中医养生项目

@@ -2,6 +2,8 @@
 
 > 舒缓身心 · 焕发活力
 
+![身体护理](../assets/massage.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+
 ---
 
 ## 🌟 热门身体护理
