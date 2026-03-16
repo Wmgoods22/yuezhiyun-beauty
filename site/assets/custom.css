@@ -1,24 +1,29 @@
-/* 玥之韵美容美体养生馆 - 专业高端配色（克丽缇娜风格）+ 第二阶段优化 */
+/* 玥之韵美容美体养生馆 - 年轻活力粉色系主题 */
 
-/* === 全局配色方案 === */
+/* === 全局配色方案 - 年轻活力 === */
 :root {
-  --md-primary-fg-color: #5C4A3D;
-  --md-primary-fg-color--light: #6E5A4D;
-  --md-primary-fg-color--dark: #4A3A2D;
-  --md-default-bg-color: #F5F1E8;
-  --color-soft-beige: #F9F7F2;
-  --color-light-beige: #F5F1E8;
-  --color-medium-beige: #E8E0D5;
-  --md-accent-fg-color: #C9A962;
-  --text-primary: #333333;
-  --text-secondary: #555555;
-  --text-light: #888888;
+  --md-primary-fg-color: #FF6B9D;
+  --md-primary-fg-color--light: #FF8FB3;
+  --md-primary-fg-color--dark: #FF4081;
+  --md-default-bg-color: #FFF5F8;
+  --md-accent-fg-color: #FF4081;
+  --color-soft-pink: #FFF5F8;
+  --color-light-pink: #FFE4EC;
+  --color-medium-pink: #FFC0D5;
+  --color-coral: #FF8A80;
+  --color-purple: #EA80FC;
+  --color-gradient-start: #FF6B9D;
+  --color-gradient-mid: #FF8FB3;
+  --color-gradient-end: #EA80FC;
+  --text-primary: #4A4A4A;
+  --text-secondary: #666666;
+  --text-light: #999999;
 }
 
-/* === 导航栏 === */
+/* === 导航栏 - 渐变粉色 === */
 .md-header {
-  background: #FFFFFF;
-  box-shadow: 0 2px 10px rgba(92, 74, 61, 0.1);
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF8FB3 100%);
+  box-shadow: 0 2px 15px rgba(255, 107, 157, 0.3);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -30,302 +35,408 @@
   margin: 0 auto;
 }
 
-.md-logo { color: #5C4A3D !important; }
+.md-logo { color: #FFFFFF !important; }
 .md-logo img { height: 45px !important; }
 
 .md-tabs {
-  background: #FFFFFF;
-  border-top: 1px solid #E8E0D5;
+  background: linear-gradient(135deg, #FF8FB3 0%, #FFA8C4 100%);
+  border-top: 1px solid #FFC0D5;
 }
 
 .md-tabs__link {
-  color: #5C4A3D;
-  font-weight: 500;
+  color: #FFFFFF;
+  font-weight: 600;
   font-size: 16px;
 }
 
-/* === 首页 Banner === */
+.md-tabs__link:hover {
+  color: #FFF5F8;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* === 首页 Banner - 渐变活力 === */
 .hero-section {
-  background: linear-gradient(135deg, #F9F7F2 0%, #F5F1E8 100%);
-  color: #333333;
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 50%, #FFC0D5 100%);
+  color: #4A4A4A;
   padding: 80px 20px 60px 20px;
   text-align: center;
-  border-bottom: 3px solid #C9A962;
+  border-bottom: 4px solid #FF6B9D;
 }
 
 .hero-section h1 {
   font-size: 2.8em;
-  font-weight: 600;
-  color: #5C4A3D;
+  font-weight: 700;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   letter-spacing: 4px;
 }
 
-/* === 服务卡片 === */
-.service-card {
-  background: #FFFFFF;
-  border: 1px solid #E8E0D5;
-  border-radius: 8px;
-  padding: 30px;
-  margin: 20px 0;
-  box-shadow: 0 4px 12px rgba(92, 74, 61, 0.08);
-  transition: all 0.3s ease;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(92, 74, 61, 0.15);
-  border-color: #C9A962;
-}
-
-/* === 图片样式 === */
-.md-content img {
-  border-radius: 6px;
-  box-shadow: 0 4px 16px rgba(92, 74, 61, 0.12);
-}
-
-/* === 价格表格 === */
-.price-table {
-  border-radius: 6px;
-  overflow: hidden;
-  box-shadow: 0 4px 16px rgba(92, 74, 61, 0.1);
-  border: 1px solid #E8E0D5;
-}
-
-.price-table th {
-  background: #5C4A3D;
-  color: #FFFFFF;
-  padding: 16px;
-}
-
-.price-table td { padding: 14px; }
-.price-table tr:nth-child(even) { background: #F9F7F2; }
-
-/* === 按钮 === */
-.md-button {
-  background: linear-gradient(135deg, #C9A962 0%, #B0924A 100%);
-  border: none;
-  border-radius: 6px;
-  padding: 14px 35px;
+.hero-section h3 {
+  color: #FF4081;
   font-weight: 600;
-  font-size: 16px;
+}
+
+/* === 按钮 - 渐变粉色 === */
+.md-button {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-weight: 600;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
   transition: all 0.3s ease;
 }
 
 .md-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 20px rgba(201, 169, 98, 0.4);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.6);
+  background: linear-gradient(135deg, #FF4081 0%, #FF6B9D 100%);
 }
 
 .md-button--primary {
-  background: linear-gradient(135deg, #5C4A3D 0%, #4A3A2D 100%);
+  background: linear-gradient(135deg, #FF4081 0%, #EA80FC 100%);
+  box-shadow: 0 4px 15px rgba(234, 128, 252, 0.4);
 }
 
-/* === 优惠标签 === */
-.promotion-badge {
-  display: inline-block;
-  background: #C9A962;
+.md-button--primary:hover {
+  box-shadow: 0 6px 20px rgba(234, 128, 252, 0.6);
+}
+
+/* === 服务卡片 - 活力风格 === */
+.service-card, .card {
+  background: #FFFFFF;
+  border: 2px solid #FFC0D5;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover, .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(255, 107, 157, 0.3);
+  border-color: #FF6B9D;
+}
+
+.service-card h3, .card h3 {
+  color: #FF4081;
+  font-weight: 700;
+}
+
+/* === 图片样式 - 圆角柔和 === */
+.md-content img {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(255, 107, 157, 0.2);
+  border: 3px solid #FFF5F8;
+}
+
+/* === 价格表格 - 粉色主题 === */
+.price-table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(255, 107, 157, 0.15);
+  border: 2px solid #FFC0D5;
+}
+
+.price-table th {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
-  padding: 6px 18px;
-  border-radius: 4px;
+  padding: 16px;
   font-weight: 600;
 }
 
-/* === 顾客评价 === */
-.review-card {
-  background: #FFFFFF;
-  border-left: 4px solid #C9A962;
+.price-table td { 
+  padding: 14px;
+  background: #FFF5F8;
+}
+
+.price-table tr:nth-child(even) td {
+  background: #FFE4EC;
+}
+
+/* === 会员卡片 - 渐变效果 === */
+.member-card {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  border: 2px solid #FFC0D5;
+  border-radius: 15px;
   padding: 25px;
   margin: 20px 0;
-  box-shadow: 0 4px 12px rgba(92, 74, 61, 0.08);
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
 }
 
-.review-card blockquote {
-  font-style: italic;
-  color: #555555;
-  line-height: 1.8;
+.member-card h3 {
+  color: #FF4081;
+  font-weight: 700;
 }
 
-.rating { color: #C9A962; font-size: 18px; }
-.price-highlight { color: #5C4A3D; font-weight: 700; font-size: 18px; }
-
-/* === 提示框 === */
-.admonition {
-  border-radius: 6px;
-  border-left-width: 4px;
-  box-shadow: 0 4px 12px rgba(92, 74, 61, 0.08);
-}
-
-.admonition.tip {
-  border-left-color: #C9A962;
-  background: #F9F7F2;
-}
-
-/* === 网格卡片 === */
-.grid.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
-  margin: 40px 0;
-}
-
-.grid.cards > * {
+/* === 评价卡片 - 柔和粉色 === */
+.review-card {
   background: #FFFFFF;
-  border: 1px solid #E8E0D5;
-  border-radius: 8px;
-  padding: 30px;
-  box-shadow: 0 4px 12px rgba(92, 74, 61, 0.08);
+  border-left: 4px solid #FF6B9D;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.1);
 }
 
-.grid.cards > *:hover {
+.review-card .rating {
+  color: #FF6B9D;
+  font-size: 20px;
+}
+
+/* === 资质认证 - 活力风格 === */
+.certification-item {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  border: 2px solid #FFC0D5;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
+  transition: all 0.3s ease;
+}
+
+.certification-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 24px rgba(92, 74, 61, 0.15);
-  border-color: #C9A962;
+  box-shadow: 0 8px 25px rgba(255, 107, 157, 0.3);
+  border-color: #FF6B9D;
 }
 
-/* === 资质认证展示 === */
-.certification-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-  margin: 40px 0;
-  padding: 30px;
-  background: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(92, 74, 61, 0.1);
-}
-
-.certification-item { text-align: center; padding: 20px; }
-.certification-item img { width: 80px; height: 80px; margin-bottom: 10px; }
-.certification-item p { color: #5C4A3D; font-weight: 500; font-size: 14px; }
-
-/* === 技师信息卡片 === */
+/* === 技师卡片 - 粉色主题 === */
 .team-card {
   background: #FFFFFF;
-  border: 1px solid #E8E0D5;
-  border-radius: 8px;
-  padding: 30px;
-  margin: 20px 0;
+  border: 2px solid #FFC0D5;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 25px 0;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
   display: flex;
   gap: 20px;
-  align-items: start;
+  align-items: center;
 }
 
 .team-photo {
-  width: 150px;
-  height: 150px;
-  border-radius: 8px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #E8E0D5;
+  border: 4px solid #FF6B9D;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.3);
 }
 
-.team-info h4 { color: #5C4A3D; font-size: 20px; margin-bottom: 10px; }
-.team-info p { color: #666666; font-size: 15px; line-height: 1.8; }
+.team-info h4 {
+  color: #FF4081;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 
-/* === 预约悬浮框 === */
+/* === 优惠活动 - 醒目渐变 === */
+.admonition.tip {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  border-left-color: #FF6B9D;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.2);
+}
+
+.admonition-title {
+  color: #FF4081;
+  font-weight: 700;
+}
+
+/* === 预约悬浮框 - 活力粉色 === */
 .booking-float {
   position: fixed;
+  bottom: 20px;
   right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #FFFFFF;
-  border: 2px solid #C9A962;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
   padding: 20px;
-  box-shadow: 0 8px 32px rgba(92, 74, 61, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 25px rgba(255, 107, 157, 0.5);
   z-index: 999;
-  width: 280px;
+  max-width: 300px;
 }
 
 .booking-float h4 {
-  color: #5C4A3D;
-  font-size: 18px;
-  margin-bottom: 15px;
-  text-align: center;
-}
-
-.booking-float ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 15px 0;
-}
-
-.booking-float li {
-  padding: 8px 0;
-  border-bottom: 1px solid #E8E0D5;
-  color: #666666;
-  font-size: 14px;
-}
-
-.booking-float .float-btn {
-  display: block;
-  background: linear-gradient(135deg, #C9A962 0%, #B0924A 100%);
   color: #FFFFFF;
-  text-align: center;
-  padding: 12px;
-  border-radius: 6px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.float-btn {
+  background: #FFFFFF;
+  color: #FF4081;
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-decoration: none;
   font-weight: 600;
+  display: inline-block;
+  margin-top: 10px;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);
+}
+
+/* === 页脚 - 渐变紫色 === */
+.md-footer {
+  background: linear-gradient(135deg, #FF6B9D 0%, #EA80FC 100%);
+  color: #FFFFFF;
+}
+
+.md-footer-meta {
+  background: linear-gradient(135deg, #FF4081 0%, #D81B60 100%);
+}
+
+.md-footer a {
+  color: #FFFFFF;
+}
+
+/* === 目录导航 - 粉色高亮 === */
+.md-nav__link--active {
+  color: #FF4081;
+  font-weight: 600;
+}
+
+.md-nav__link:hover {
+  color: #FF6B9D;
+}
+
+/* === 搜索框 - 粉色边框 === */
+.md-search__input {
+  background: #FFFFFF;
+  border: 2px solid #FFC0D5;
+  border-radius: 20px;
+  color: #4A4A4A;
+}
+
+.md-search__input::placeholder {
+  color: #FF6B9D;
+}
+
+/* === 回到顶部按钮 - 渐变 === */
+.md-top {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
+}
+
+/* === 表格样式 - 粉色主题 === */
+table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
+}
+
+table th {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+table td {
+  background: #FFF5F8;
+}
+
+table tr:nth-child(even) td {
+  background: #FFE4EC;
+}
+
+/* === 引用块 - 粉色左边框 === */
+blockquote {
+  border-left: 4px solid #FF6B9D;
+  background: #FFF5F8;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 0 10px 10px 0;
+  color: #666666;
+}
+
+/* === 代码块 - 深色背景 === */
+code {
+  background: #F5F5F5;
+  border: 1px solid #FFC0D5;
+  border-radius: 5px;
+  color: #FF4081;
+}
+
+/* === 分隔线 - 粉色渐变 === */
+hr {
+  border: none;
+  border-top: 2px solid #FFC0D5;
+  margin: 40px 0;
+}
+
+/* === 标题样式 - 粉色主题 === */
+h1, h2, h3, h4, h5, h6 {
+  color: #4A4A4A;
+  font-weight: 700;
+}
+
+h1 { border-bottom: 3px solid #FF6B9D; padding-bottom: 10px; }
+h2 { border-left: 4px solid #FF4081; padding-left: 15px; }
+h3 { color: #FF4081; }
+
+/* === 列表项 - 粉色标记 === */
+ul li::marker {
+  color: #FF6B9D;
+}
+
+/* === 链接 - 粉色悬停 === */
+a {
+  color: #FF4081;
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.booking-float .float-btn:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(201, 169, 98, 0.4);
+a:hover {
+  color: #FF6B9D;
+  text-decoration: underline;
 }
 
-/* === 页脚 === */
-.md-footer {
-  background: #5C4A3D;
-  color: #F5F1E8;
-  padding: 50px 20px;
+/* === 网格布局 === */
+.grid {
+  display: grid;
+  gap: 25px;
+  margin: 30px 0;
 }
 
-.md-footer a { color: #C9A962; }
-.md-footer a:hover { color: #FFFFFF; }
-
-/* === 移动端优化 === */
+/* === 响应式优化 === */
 @media (max-width: 768px) {
-  .hero-section h1 { font-size: 2em; }
-  .service-card { padding: 20px; }
-  .md-button { padding: 12px 25px; font-size: 14px; }
-  .booking-float { display: none; }
-  .grid.cards { grid-template-columns: 1fr; }
-  .team-card { flex-direction: column; }
-  .team-photo { width: 100%; height: 200px; }
+  .hero-section h1 {
+    font-size: 2em;
+  }
+  
+  .team-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .booking-float {
+    bottom: 10px;
+    right: 10px;
+    max-width: 250px;
+  }
 }
 
-/* === 页面加载动画 === */
+/* === 动画效果 === */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.md-button:hover {
+  animation: pulse 0.3s ease;
+}
+
+/* === 加载动画 === */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-.md-content { animation: fadeIn 0.4s ease-out; }
-
-/* === 字体层级 === */
-h1 { font-size: 24px; color: #5C4A3D; margin-bottom: 20px; }
-h2 { font-size: 22px; color: #5C4A3D; margin-bottom: 18px; }
-h3 { font-size: 20px; color: #5C4A3D; margin-bottom: 16px; }
-h4 { font-size: 18px; color: #5C4A3D; margin-bottom: 14px; }
-p { font-size: 16px; color: #555555; line-height: 1.8; margin-bottom: 15px; }
-
-/* === 模块间距 === */
-section { margin-bottom: 40px; }
-.md-content > * { margin-bottom: 30px; }
-
-/* === 表单样式 === */
-input, select, textarea {
-  font-family: inherit;
+.md-content {
+  animation: fadeIn 0.5s ease;
 }
-
-input:focus, select:focus, textarea:focus {
-  outline: none;
-  border-color: #C9A962;
-  box-shadow: 0 0 0 3px rgba(201, 169, 98, 0.1);
-}
-
-/* === 技师状态 === */
-.status-available { color: #5C4A3D; }
-.status-limited { color: #C9A962; }
-.status-full { color: #888888; }
