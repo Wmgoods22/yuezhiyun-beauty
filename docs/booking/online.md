@@ -10,7 +10,7 @@
 
 <div class="grid cards" >
 
--   :material-numeric-1-circle: **步骤 1**
+-   <i class="material-icons">counter_1</i> **步骤 1**
 
     ---
 
@@ -20,7 +20,7 @@
     
     3 大系列 · 30+ 专业项目
 
--   :material-numeric-2-circle: **步骤 2**
+-   <i class="material-icons">counter_2</i> **步骤 2**
 
     ---
 
@@ -30,7 +30,7 @@
     
     显示地址 · 营业时间
 
--   :material-numeric-3-circle: **步骤 3**
+-   <i class="material-icons">counter_3</i> **步骤 3**
 
     ---
 
@@ -40,7 +40,7 @@
     
     实时显示技师忙闲
 
--   :material-numeric-4-circle: **步骤 4**
+-   <i class="material-icons">counter_4</i> **步骤 4**
 
     ---
 
@@ -48,6 +48,8 @@
     
     填写基本信息
     
+<img src="../assets/consultation.jpg" alt="预约咨询" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
     4 个必填项 · 1 分钟完成
 
 </div>
@@ -97,7 +99,7 @@
 </div>
 
 <div style="text-align: center; margin-top: 30px;" >
-[提交预约](#){ .md-button .md-button--primary style="font-size: 18px; padding: 16px 60px;" }
+<a href="#" class="md-button md-button--primary" style="font-size: 18px; padding: 16px 60px;">提交预约</a>
 <img src="../assets/office.jpg" alt="预约流程" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 </div>
@@ -146,12 +148,14 @@
 </div>
 
 ---
+<img src="../assets/office2.jpg" alt="办公环境" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
 
 ## 热门技师推荐
 
 <div class="team-card" >
 
-![张玥](assets/team.jpg){ .team-photo style="width: 120px; height: 120px;" }
+<img src="assets/team.jpg" alt="张玥" class="team-photo" style="width: 120px; height: 120px;" />
 
 <div class="team-info" >
 
@@ -169,7 +173,7 @@
 
 <div class="team-card" >
 
-![李娜](assets/team.jpg){ .team-photo style="width: 120px; height: 120px;" }
+<img src="assets/team.jpg" alt="李娜" class="team-photo" style="width: 120px; height: 120px;" />
 
 <div class="team-info" >
 
@@ -207,7 +211,7 @@
 
 <div class="grid cards" >
 
--   :material-clock-check: **准时到店**
+-   <i class="material-icons">task_alt</i> **准时到店**
 
     ---
 
@@ -215,7 +219,7 @@
     填写皮肤档案
     逾期可能影响服务时长
 
--   :material-bell-cancel: **取消政策**
+-   <i class="material-icons">notifications_paused</i> **取消政策**
 
     ---
 

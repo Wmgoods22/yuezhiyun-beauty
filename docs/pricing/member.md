@@ -19,8 +19,8 @@
     #### 核心权益
     
     - <i class="material-icons">percent</i> 消费享 **9 折**
-    - :material-cake-variant: 生日免费护理 1 次
-    - :material-calendar-clock: 优先预约技师
+    - <i class="material-icons">cake</i> 生日免费护理 1 次
+    - <i class="material-icons">event_busy</i> 优先预约技师
     - <i class="material-icons">gift</i> 会员专属礼品
     
     #### 额外福利
@@ -40,7 +40,7 @@
     #### 核心权益
     
     - <i class="material-icons">percent</i> 消费享 **85 折**
-    - :material-face-woman: 专属美容顾问
+    - <i class="material-icons">face</i> 专属美容顾问
     - <i class="material-icons">spa</i> 免费产品体验
     - <i class="material-icons">cake</i> 生日豪华护理
     
@@ -63,7 +63,7 @@
     
     - <i class="material-icons">percent</i> 消费享 **8 折**
     - <i class="material-icons">door</i> VIP 专属房间
-    - :material-account-tie: 私人定制方案
+    - <i class="material-icons">badge</i> 私人定制方案
     - <i class="material-icons">infinity</i> 全年无限次预约
     
     #### 额外福利
@@ -78,6 +78,8 @@
 </div>
 
 ---
+<img src="../assets/reception2.jpg" alt="接待区" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
 
 ## 会员充值优惠
 
@@ -118,7 +120,7 @@
 
 <div class="grid cards" >
 
--   :material-calendar-check: **优先预约**
+-   <i class="material-icons">event_available</i> **优先预约**
 
     ---
 
@@ -134,7 +136,7 @@
     金卡：豪华护理 + 礼品
     钻石：奢华护理 + 旅游
 
--   :material-account-group: **专属顾问**
+-   <i class="material-icons">groups</i> **专属顾问**
 
     ---
 

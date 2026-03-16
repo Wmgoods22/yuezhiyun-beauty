@@ -198,6 +198,8 @@
 - 24K 黄金精华导入
 - 奢华抗衰体验
 - 即时提亮效果
+<img src="../assets/treatment2.jpg" alt="护理环境" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
 - 名媛贵妇首选
 
 <a href="../booking/online.md" class="md-button md-button--primary">立即预约</a>
@@ -348,7 +350,7 @@
 
 **90% 用户反馈肌肤明显改善**
 
-[立即预约](../booking/online.md){ .md-button .md-button--primary style="font-size: 18px; padding: 18px 50px;" }
+<a href="../booking/online.md" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即预约</a>
 
 <a href="tel:400-xxx-xxxx" class="md-button" style="font-size: 18px; padding: 18px 50px;">咨询客服</a>
 

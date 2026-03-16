@@ -18,6 +18,8 @@
 [查看证书](#){ style="color: #C9A962;" }
 </div>
 
+<img src="../assets/products.jpg" alt="产品认证" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
 <div class="certification-item" >
 🏥
 **卫生评级 A 级**
@@ -95,6 +97,8 @@
 <div class="service-card" >
 
 ### 美容行业协会会员
+
+<img src="../assets/medical.jpg" alt="医疗资质" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 **协会名称**: 中国美容美发协会  
 **会员编号**: CAM-2023-XXX  
@@ -174,6 +178,8 @@
 
 <div class="team-card" >
 
+<img src="../assets/clinic.jpg" alt="卫生资质" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
 <img src="assets/team.jpg" alt="王芳" class="team-photo" />
 
 <div class="team-info" >
@@ -205,7 +211,7 @@
 
 <div class="grid cards" >
 
--   :material-shield-check: **法国进口品牌**
+-   <i class="material-icons">verified</i> **法国进口品牌**
 
     ---
 
@@ -232,7 +238,7 @@
     安全无副作用
     效果显著
 
--   :material-check-circle: **质量检测报告**
+-   <i class="material-icons">check_circle</i> **质量检测报告**
 
     ---
 
@@ -294,7 +300,7 @@
 
 <div class="grid cards" >
 
--   :material-shield-account: **隐私保护**
+-   <i class="material-icons">shield_person</i> **隐私保护**
 
     ---
 
@@ -321,7 +327,7 @@
     效果可预期
     不满意可重做
 
--   :material-clock-alert: **安全保障**
+-   <i class="material-icons">schedule_send</i> **安全保障**
 
     ---
 

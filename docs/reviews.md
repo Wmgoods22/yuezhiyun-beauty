@@ -118,6 +118,8 @@
 
 <a href="#" class="md-button">**👉 发表评价**</a>
 
+<img src="../assets/banner2.jpg" alt="优惠活动" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
+
 </div>
 
 ---
