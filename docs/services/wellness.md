@@ -99,7 +99,7 @@
 
 ---
 
-<a href="../booking/online.md" class="md-button md-button--primary">**👉 立即预约养生调理**</a>
+<a href="../booking/online/" class="md-button md-button--primary">**👉 立即预约养生调理**</a>
 
 ---
 

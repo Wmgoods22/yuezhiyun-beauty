@@ -45,7 +45,7 @@
 - 无重金属
 - 孕妇可用
 
-<a href="../booking/online.md" class="md-button">立即预约</a>
+<a href="../booking/online/" class="md-button">立即预约</a>
 
 </div>
 
@@ -88,7 +88,7 @@
 - 小分子胶原蛋白
 - 临床验证有效
 
-<a href="../booking/online.md" class="md-button">立即预约</a>
+<a href="../booking/online/" class="md-button">立即预约</a>
 
 </div>
 
@@ -127,7 +127,7 @@
 - 护理 2 个月，痘痘复发率降低 80%
 - 无效可重做 1 次
 
-<a href="../booking/online.md" class="md-button">立即预约</a>
+<a href="../booking/online/" class="md-button">立即预约</a>
 
 </div>
 
@@ -168,7 +168,7 @@
 - 无色素
 - 通过敏感测试
 
-<a href="../booking/online.md" class="md-button">立即预约</a>
+<a href="../booking/online/" class="md-button">立即预约</a>
 
 </div>
 
@@ -202,7 +202,7 @@
 
 - 名媛贵妇首选
 
-<a href="../booking/online.md" class="md-button md-button--primary">立即预约</a>
+<a href="../booking/online/" class="md-button md-button--primary">立即预约</a>
 
 </div>
 
@@ -230,7 +230,7 @@
 - 全脸 + 颈部 + 手部
 - 顶级奢华体验
 
-<a href="../booking/online.md" class="md-button md-button--primary">立即预约</a>
+<a href="../booking/online/" class="md-button md-button--primary">立即预约</a>
 
 </div>
 
@@ -253,7 +253,7 @@
 - 可转让 1 次
 - 支持退款（按原价扣除已使用次数）
 
-<a href="../pricing/member.md" class="md-button">立即抢购</a>
+<a href="../pricing/member/" class="md-button">立即抢购</a>
 
 </div>
 
@@ -273,7 +273,7 @@
 - 可转让 1 次
 - 支持退款
 
-<a href="../pricing/member.md" class="md-button md-button--primary">立即抢购</a>
+<a href="../pricing/member/" class="md-button md-button--primary">立即抢购</a>
 
 </div>
 
@@ -350,7 +350,7 @@
 
 **90% 用户反馈肌肤明显改善**
 
-<a href="../booking/online.md" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即预约</a>
+<a href="../booking/online/" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即预约</a>
 
 <a href="tel:400-xxx-xxxx" class="md-button" style="font-size: 18px; padding: 18px 50px;">咨询客服</a>
 

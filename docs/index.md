@@ -13,7 +13,7 @@
 <h3 style="text-align: center; color: #666;">玥之韵 - 15 年专业美容养生专家</h3>
 
 <div style="text-align: center; margin-top: 30px;">
-<a href="booking/online.md" class="md-button md-button--primary" style="display: inline-block; padding: 12px 30px; background: #C9A962; color: white; text-decoration: none; border-radius: 6px; margin: 10px;">立即预约</a>
+<a href="booking/online/" class="md-button md-button--primary" style="display: inline-block; padding: 12px 30px; background: #C9A962; color: white; text-decoration: none; border-radius: 6px; margin: 10px;">立即预约</a>
 <a href="#promotion" class="md-button" style="display: inline-block; padding: 12px 30px; background: #6B4C8A; color: white; text-decoration: none; border-radius: 6px; margin: 10px;">新客专享 99 元体验券</a>
 </div>
 
@@ -30,7 +30,7 @@
 <h3>面部护理</h3>
 <p>深层清洁、抗衰紧致、痘痘肌调理、敏感肌修复</p>
 <p style="color: #999; font-size: 14px;">6 大系列 | 12 个专业项目</p>
-<a href="services/facial.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+<a href="services/facial/" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
 </div>
 
 <div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
@@ -38,7 +38,7 @@
 <h3>身体护理</h3>
 <p>全身精油 SPA、中式推拿、排毒淋巴引流、热石理疗</p>
 <p style="color: #999; font-size: 14px;">4 大系列 | 10 个专业项目</p>
-<a href="services/body.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+<a href="services/body/" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
 </div>
 
 <div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
@@ -46,7 +46,7 @@
 <h3>养生调理</h3>
 <p>中医体质辨识、经络调理、艾灸养生、拔罐理疗</p>
 <p style="color: #999; font-size: 14px;">4 大系列 | 8 个专业项目</p>
-<a href="services/wellness.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+<a href="services/wellness/" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
 </div>
 
 <div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
@@ -54,13 +54,13 @@
 <h3>特色项目</h3>
 <p>黄金焕肤、瑞士抗衰、产后修复、瘦身塑形</p>
 <p style="color: #999; font-size: 14px;">高端定制 | 私人专属</p>
-<a href="services/special.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+<a href="services/special/" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
 </div>
 
 </div>
 
 <div style="text-align: center; margin: 40px 0;">
-<a href="services/facial.md" class="md-button" style="display: inline-block; padding: 12px 30px; background: #6B4C8A; color: white; text-decoration: none; border-radius: 6px;">查看全部服务项目</a>
+<a href="services/facial/" class="md-button" style="display: inline-block; padding: 12px 30px; background: #6B4C8A; color: white; text-decoration: none; border-radius: 6px;">查看全部服务项目</a>
 </div>
 
 ---
@@ -75,35 +75,35 @@
 🏆
 **ISO9001 质量认证**
 国际质量管理体系认证
-<a href="about/certification.md" class="md-button">查看证书</a>
+<a href="about/certification/" class="md-button">查看证书</a>
 </div>
 
 <div class="certification-item" >
 🏥
 **卫生评级 A 级**
 医疗卫生标准认证
-<a href="about/certification.md" class="md-button">查看证书</a>
+<a href="about/certification/" class="md-button">查看证书</a>
 </div>
 
 <div class="certification-item" >
 📋
 **美容行业协会会员**
 中国美容美发协会
-<a href="about/certification.md" class="md-button">查看证书</a>
+<a href="about/certification/" class="md-button">查看证书</a>
 </div>
 
 <div class="certification-item" >
 ⭐
 **消费者信赖品牌**
 2023-2024 连续获奖
-<a href="about/certification.md" class="md-button">查看证书</a>
+<a href="about/certification/" class="md-button">查看证书</a>
 </div>
 
 </div>
 
 <div style="text-align: center; margin: 20px 0;" >
 
-<a href="about/certification.md" class="md-button">查看全部资质认证</a>
+<a href="about/certification/" class="md-button">查看全部资质认证</a>
 
 </div>
 
@@ -166,7 +166,7 @@
 
 <div style="text-align: center; margin: 30px 0;">
 
-<a href="about/team.md" class="md-button">查看全部技师团队</a>
+<a href="about/team/" class="md-button">查看全部技师团队</a>
 
 </div>
 
@@ -216,7 +216,7 @@
 
 <div style="text-align: center; margin: 30px 0;">
 
-<a href="reviews.md" class="md-button">查看更多顾客评价</a>
+<a href="reviews/" class="md-button">查看更多顾客评价</a>
 
 </div>
 
@@ -235,7 +235,7 @@
 - 精美礼品一份
 - 会员专属优惠券礼包
 
-<a href="booking/online.md" class="md-button">立即领取</a>
+<a href="booking/online/" class="md-button">立即领取</a>
 
 </div>
 
@@ -252,7 +252,7 @@
 
 有效期：3 个月 | 限本人使用
 
-<a href="pricing/member.md" class="md-button">立即抢购</a>
+<a href="pricing/member/" class="md-button">立即抢购</a>
 
 </div>
 
@@ -301,7 +301,7 @@
 
 <div style="text-align: center; margin: 30px 0;">
 
-<a href="pricing/member.md" class="md-button">了解会员详情</a>
+<a href="pricing/member/" class="md-button">了解会员详情</a>
 
 </div>
 
@@ -351,9 +351,9 @@
 
 **专业团队 · 高端产品 · 贴心服务**
 
-<a href="booking/online.md" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即预约</a>
+<a href="booking/online/" class="md-button md-button--primary" style="font-size: 18px; padding: 18px 50px;">立即预约</a>
 
-<a href="pricing/member.md" class="md-button" style="font-size: 18px; padding: 18px 50px;">查看价格</a>
+<a href="pricing/member/" class="md-button" style="font-size: 18px; padding: 18px 50px;">查看价格</a>
 
 </div>
 
@@ -385,7 +385,7 @@
 - 🔥 张玥（抗衰专家）
 - ⭐ 李娜（祛痘专家）
 
-<a href="booking/online.md" class="float-btn">立即预约</a>
+<a href="booking/online/" class="float-btn">立即预约</a>
 
 [电话咨询](tel:400-xxx-xxxx)
 
