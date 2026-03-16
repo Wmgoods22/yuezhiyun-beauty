@@ -4,15 +4,18 @@
 
 ---
 
-<div class="hero-section" markdown>
+<div class="hero-section">
 
-![美丽护理](assets/skincare-treatment.jpg){ style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 8px;" }
+<img src="assets/skincare-treatment.jpg" alt="美丽护理" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 8px;" />
 
-# 让美丽与健康同行
+<h1 style="text-align: center; margin-top: 30px;">让美丽与健康同行</h1>
 
-### 玥之韵 - 15 年专业美容养生专家
+<h3 style="text-align: center; color: #666;">玥之韵 - 15 年专业美容养生专家</h3>
 
-[立即预约](booking/online.md){ .md-button .md-button--primary }  [新客专享 99 元体验券](#promotion)
+<div style="text-align: center; margin-top: 30px;">
+<a href="booking/online.md" class="md-button md-button--primary" style="display: inline-block; padding: 12px 30px; background: #C9A962; color: white; text-decoration: none; border-radius: 6px; margin: 10px;">立即预约</a>
+<a href="#promotion" class="md-button" style="display: inline-block; padding: 12px 30px; background: #6B4C8A; color: white; text-decoration: none; border-radius: 6px; margin: 10px;">新客专享 99 元体验券</a>
+</div>
 
 </div>
 
@@ -20,61 +23,51 @@
 
 ## 核心服务项目
 
-<div class="grid cards" markdown>
+<div class="grid cards">
 
--   :material-face-woman: **面部护理**
+<div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">face</i>
+<h3>面部护理</h3>
+<p>深层清洁、抗衰紧致、痘痘肌调理、敏感肌修复</p>
+<p style="color: #999; font-size: 14px;">6 大系列 | 12 个专业项目</p>
+<a href="services/facial.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+</div>
 
-    ---
+<div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">spa</i>
+<h3>身体护理</h3>
+<p>全身精油 SPA、中式推拿、排毒淋巴引流、热石理疗</p>
+<p style="color: #999; font-size: 14px;">4 大系列 | 10 个专业项目</p>
+<a href="services/body.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+</div>
 
-    深层清洁、抗衰紧致、痘痘肌调理、敏感肌修复
-    
-    6 大系列 | 12 个专业项目
-    
-    [查看详情](services/facial.md){ .md-button }
+<div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">self_improvement</i>
+<h3>养生调理</h3>
+<p>中医体质辨识、经络调理、艾灸养生、拔罐理疗</p>
+<p style="color: #999; font-size: 14px;">4 大系列 | 8 个专业项目</p>
+<a href="services/wellness.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+</div>
 
--   :material-spa: **身体护理**
-
-    ---
-
-    全身精油 SPA、中式推拿、排毒淋巴引流、热石理疗
-    
-    4 大系列 | 10 个专业项目
-    
-    [查看详情](services/body.md){ .md-button }
-
--   :material-leaf: **养生调理**
-
-    ---
-
-    中医体质辨识、经络调理、艾灸养生、拔罐理疗
-    
-    4 大系列 | 8 个专业项目
-    
-    [查看详情](services/wellness.md){ .md-button }
-
--   :material-star: **特色项目**
-
-    ---
-
-    黄金焕肤、瑞士抗衰、产后修复、瘦身塑形
-    
-    高端定制 | 私人专属
-    
-    [查看详情](services/special.md){ .md-button }
+<div class="card" style="padding: 20px; border: 1px solid #eee; border-radius: 8px;">
+<i class="material-icons" style="font-size: 48px; color: #C9A962;">star</i>
+<h3>特色项目</h3>
+<p>黄金焕肤、瑞士抗衰、产后修复、瘦身塑形</p>
+<p style="color: #999; font-size: 14px;">高端定制 | 私人专属</p>
+<a href="services/special.md" class="md-button" style="display: inline-block; padding: 8px 20px; background: #C9A962; color: white; text-decoration: none; border-radius: 4px;">查看详情</a>
+</div>
 
 </div>
 
 <div style="text-align: center; margin: 40px 0;">
-
-[查看全部服务项目](services/facial.md){ .md-button }
-
+<a href="services/facial.md" class="md-button" style="display: inline-block; padding: 12px 30px; background: #6B4C8A; color: white; text-decoration: none; border-radius: 6px;">查看全部服务项目</a>
 </div>
 
 ---
 
 ## 品牌资质认证
 
-![资质证书](assets/certificate.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="assets/certificate.jpg" alt="资质证书" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 <div class="certification-grid" markdown>
 
@@ -120,10 +113,10 @@
 
 <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 40px 0;" markdown>
 
-![接待区](assets/environment1.jpg){ style="width: 100%; border-radius: 6px;" }
-![护理室](assets/environment2.jpg){ style="width: 100%; border-radius: 6px;" }
-![产品区](assets/products.jpg){ style="width: 100%; border-radius: 6px;" }
-![SPA 房间](assets/spa-room.jpg){ style="width: 100%; border-radius: 6px;" }
+
+
+
+
 
 </div>
 
@@ -229,7 +222,7 @@
 
 ---
 
-![优惠活动](assets/promotion.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="assets/promotion.jpg" alt="优惠活动" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ## 限时优惠活动
 
@@ -263,7 +256,7 @@
 
 </div>
 
-![会员服务](assets/membership.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="assets/membership.jpg" alt="会员服务" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 

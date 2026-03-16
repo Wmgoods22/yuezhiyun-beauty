@@ -2,7 +2,7 @@
 
 > 舒缓身心 · 焕发活力
 
-![身体护理](../assets/massage.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/massage.jpg" alt="身体护理" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 
@@ -33,7 +33,7 @@
 
 ---
 
-![按摩环境](../assets/service-detail2.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/service-detail2.jpg" alt="按摩环境" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ### 2. 中式推拿按摩
 

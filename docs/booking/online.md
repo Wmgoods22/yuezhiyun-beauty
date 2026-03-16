@@ -2,7 +2,7 @@
 
 > 4 步快速预约 · 专业贴心服务
 
-![预约服务](../assets/facial-treatment.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/facial-treatment.jpg" alt="预约服务" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 
@@ -98,7 +98,7 @@
 
 <div style="text-align: center; margin-top: 30px;" markdown>
 [提交预约](#){ .md-button .md-button--primary style="font-size: 18px; padding: 16px 60px;" }
-![预约流程](../assets/office.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/office.jpg" alt="预约流程" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 </div>
 

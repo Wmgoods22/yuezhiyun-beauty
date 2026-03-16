@@ -2,7 +2,7 @@
 
 > 玥之韵 · 传承东方美学 · 缔造健康之美
 
-![品牌环境](../assets/reception.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/reception.jpg" alt="品牌环境" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 🌟 品牌理念
 
-![团队服务](../assets/team2.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/team2.jpg" alt="团队服务" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ### 我们的使命
 

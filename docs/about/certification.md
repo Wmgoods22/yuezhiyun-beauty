@@ -2,7 +2,7 @@
 
 > 专业认证 · 品质保障 · 安心选择
 
-![认证证书](../assets/certificate.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/certificate.jpg" alt="认证证书" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 
@@ -338,10 +338,10 @@
 
 <div class="grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;" markdown>
 
-![荣誉证书 1](assets/products.jpg){ style="width: 100%; border-radius: 6px;" }
-![荣誉证书 2](assets/products.jpg){ style="width: 100%; border-radius: 6px;" }
-![荣誉证书 3](assets/products.jpg){ style="width: 100%; border-radius: 6px;" }
-![荣誉证书 4](assets/products.jpg){ style="width: 100%; border-radius: 6px;" }
+<img src="assets/products.jpg" alt="荣誉证书 1" style="width: 100%; border-radius: 6px;" />
+<img src="assets/products.jpg" alt="荣誉证书 2" style="width: 100%; border-radius: 6px;" />
+<img src="assets/products.jpg" alt="荣誉证书 3" style="width: 100%; border-radius: 6px;" />
+<img src="assets/products.jpg" alt="荣誉证书 4" style="width: 100%; border-radius: 6px;" />
 
 </div>
 

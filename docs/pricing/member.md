@@ -2,7 +2,7 @@
 
 > 充值享折扣 · 专属权益 · 尊贵体验
 
-![VIP 服务](../assets/skincare.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/skincare.jpg" alt="VIP 服务" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 
@@ -98,7 +98,7 @@
 
 </div>
 
-![会员权益](../assets/membership.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/membership.jpg" alt="会员权益" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 </div>
 

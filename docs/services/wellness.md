@@ -2,7 +2,7 @@
 
 > 中医养生 · 调理身心 · 健康长寿
 
-![养生调理](../assets/wellness.jpg){ style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/wellness.jpg" alt="养生调理" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ---
 
@@ -48,7 +48,7 @@
 2. 经络疏通 (40 分钟)
 3. 穴位按摩 (25 分钟)
 4. 艾灸温养 (15 分钟)
-![养生环境](../assets/wellness.jpg){ style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" }
+<img src="../assets/wellness.jpg" alt="养生环境" style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px; margin: 20px 0;" />
 
 ```
 
