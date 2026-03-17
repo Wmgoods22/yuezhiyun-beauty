@@ -1506,52 +1506,487 @@
   font-weight: 600;
 }
 
+/* === 服务项目页面美化 === */
+/* 服务卡片 */
+.service-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 25px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #FF6B9D;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  box-shadow: 0 6px 30px rgba(255, 107, 157, 0.2);
+  transform: translateX(3px);
+}
+
+.service-card h3 {
+  color: #FF4081;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 2px dashed #FFC0D5;
+}
+
+/* 服务信息标签 */
+.service-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+.service-meta-item {
+  background: #FFF5F8;
+  color: #FF4081;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  border: 1px solid #FFC0D5;
+}
+
+/* 价格表格美化 */
+.price-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 16px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(255, 107, 157, 0.1);
+}
+
+.price-table thead {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+}
+
+.price-table th {
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.price-table tbody tr {
+  background: #FFFFFF;
+}
+
+.price-table tbody tr:nth-child(even) {
+  background: #FFF5F8;
+}
+
+.price-table tbody tr:hover {
+  background: #FFE4EC;
+}
+
+.price-table td {
+  padding: 12px 16px;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.price-table td strong {
+  color: #FF4081;
+}
+
+/* 护理流程 */
+.service-steps {
+  background: linear-gradient(135deg, #F9F7F2 0%, #FFF5F8 100%);
+  border-radius: 12px;
+  padding: 18px;
+  margin: 16px 0;
+  border-left: 4px solid #FF6B9D;
+}
+
+.service-steps h4, .service-effects h4, .service-features h4 {
+  color: #FF4081;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.service-steps ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step-counter;
+}
+
+.service-steps li {
+  position: relative;
+  padding: 8px 0 8px 35px;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  counter-increment: step-counter;
+}
+
+.service-steps li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 24px;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+
+/* 护理效果列表 */
+.service-effects, .service-features {
+  background: #F9F7F2;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 16px 0;
+}
+
+.service-effects ul, .service-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-effects li, .service-features li {
+  padding: 8px 0 8px 28px;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.service-effects li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4ADE80;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.service-features li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: #FF6B9D;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+/* 套餐表格 */
+.package-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 16px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(255, 107, 157, 0.1);
+}
+
+.package-table thead {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+}
+
+.package-table th {
+  padding: 14px 12px;
+  font-weight: 600;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.package-table tbody tr {
+  background: #FFFFFF;
+}
+
+.package-table tbody tr:nth-child(even) {
+  background: #FFF5F8;
+}
+
+.package-table tbody tr:hover {
+  background: #FFE4EC;
+}
+
+.package-table td {
+  padding: 14px 12px;
+  color: #4A4A4A;
+  font-size: 0.85em;
+  border-bottom: 1px solid #F5F5F5;
+  text-align: center;
+}
+
+.package-table td:first-child {
+  text-align: left;
+  font-weight: 600;
+  color: #FF4081;
+}
+
+/* 套餐说明 */
+.package-note {
+  background: linear-gradient(135deg, #FFF9E6 0%, #FFF3CC 100%);
+  border-left: 4px solid #FFD700;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.package-note h4 {
+  color: #B8860B;
+  font-size: 0.95em;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.package-note ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.package-note li {
+  padding: 5px 0;
+  color: #4A4A4A;
+  font-size: 0.85em;
+  position: relative;
+}
+
+.package-note li::before {
+  content: "•";
+  color: #FFD700;
+  font-weight: 700;
+  position: absolute;
+  left: -15px;
+  font-size: 1.2em;
+}
+
+/* 用户评价卡片 */
+.review-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  border-top: 3px solid #FF6B9D;
+}
+
+.review-rating {
+  color: #FFD700;
+  font-size: 1.3em;
+  margin-bottom: 12px;
+  letter-spacing: 3px;
+}
+
+.review-card blockquote {
+  margin: 0 0 12px 0;
+  padding: 0 0 0 16px;
+  border-left: 3px solid #FFC0D5;
+  color: #4A4A4A;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.review-card cite {
+  display: block;
+  color: #888;
+  font-size: 0.85em;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.review-comparison {
+  background: #F9F7F2;
+  border-radius: 10px;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.review-comparison strong {
+  color: #FF4081;
+  font-size: 0.85em;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.review-comparison ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.review-comparison li {
+  padding: 4px 0;
+  color: #4A4A4A;
+  font-size: 0.85em;
+  position: relative;
+  padding-left: 20px;
+}
+
+.review-comparison li::before {
+  content: "📊";
+  position: absolute;
+  left: 0;
+  font-size: 0.9em;
+}
+
+/* 常见问题 */
+.faq-box {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 16px 0;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #FF6B9D;
+}
+
+.faq-box h4 {
+  color: #FF4081;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.faq-box ul, .faq-box ol {
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.faq-box li {
+  padding: 6px 0;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.faq-box ul li::before {
+  content: "•";
+  color: #FF6B9D;
+  font-weight: 700;
+  position: absolute;
+  left: -12px;
+  font-size: 1.2em;
+}
+
+.faq-box ol {
+  counter-reset: faq-counter;
+}
+
+.faq-box ol li {
+  padding-left: 28px;
+}
+
+.faq-box ol li::before {
+  content: counter(faq-counter) ".";
+  color: #FF6B9D;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  font-size: 0.9em;
+}
+
+/* CTA 区块 */
+.cta-section {
+  background: linear-gradient(135deg, #F9F7F2 0%, #FFF5F8 100%);
+  border-radius: 16px;
+  padding: 30px;
+  margin: 40px 0;
+  text-align: center;
+  border-top: 4px solid #FF6B9D;
+}
+
+.cta-section h2 {
+  color: #FF4081;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.cta-section p {
+  color: #666;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .md-button {
+  padding: 14px 35px;
+  font-size: 1em;
+}
+
 /* 移动端优化 */
 @media (max-width: 768px) {
-  .contact-main-card {
+  .service-card {
+    padding: 18px;
     margin: 18px 0;
   }
   
-  .card-header {
-    padding: 14px 16px;
+  .service-card h3 {
+    font-size: 1.1em;
   }
   
-  .card-header h2 {
-    font-size: 1em;
+  .service-meta {
+    gap: 8px;
   }
   
-  .card-content {
-    padding: 16px;
+  .service-meta-item {
+    font-size: 0.75em;
+    padding: 4px 10px;
   }
   
-  .info-grid {
-    grid-template-columns: 1fr;
-    gap: 12px;
+  .price-table,
+  .package-table {
+    font-size: 0.75em;
   }
   
-  .info-item {
-    padding: 12px;
+  .price-table th,
+  .price-table td,
+  .package-table th,
+  .package-table td {
+    padding: 10px 8px;
   }
   
-  .info-icon {
-    font-size: 28px;
-  }
-  
-  .info-value {
-    font-size: 0.85em;
-  }
-  
-  .hours-section {
+  .service-steps,
+  .service-effects,
+  .service-features {
     padding: 14px;
   }
   
-  .transport-grid,
-  .quick-contact-grid {
-    grid-template-columns: 1fr;
+  .service-steps li {
+    padding-left: 30px;
   }
   
-  .section-content {
+  .review-card {
     padding: 16px;
+  }
+  
+  .cta-section {
+    padding: 20px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .cta-buttons .md-button {
+    width: 100%;
   }
 }
 
