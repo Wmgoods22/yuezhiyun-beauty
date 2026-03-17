@@ -572,6 +572,343 @@
   font-weight: 700;
 }
 
+/* === 限时优惠活动美化 === */
+.promotion-section {
+  margin: 40px 0;
+}
+
+/* 新客专享卡片 */
+.new-customer-card {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 50%, #EA80FC 100%);
+  border-radius: 25px;
+  padding: 40px;
+  margin: 30px 0;
+  box-shadow: 0 8px 35px rgba(255, 107, 157, 0.4);
+  position: relative;
+  overflow: hidden;
+  color: #FFFFFF;
+}
+
+.new-customer-card::before {
+  content: "🎁";
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  font-size: 150px;
+  opacity: 0.1;
+  transform: rotate(15deg);
+}
+
+.new-customer-card::after {
+  content: "NEW";
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #FFFFFF;
+  color: #FF6B9D;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9em;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.new-customer-card h3 {
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.price-display {
+  display: flex;
+  align-items: baseline;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.current-price {
+  font-size: 3em;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.current-price small {
+  font-size: 0.4em;
+  opacity: 0.9;
+}
+
+.original-price {
+  font-size: 1.5em;
+  color: rgba(255,255,255,0.8);
+  text-decoration: line-through;
+}
+
+.save-amount {
+  display: inline-block;
+  background: #FFFFFF;
+  color: #FF4081;
+  padding: 8px 20px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1.1em;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.promotion-items {
+  background: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  padding: 20px 25px;
+  margin: 25px 0;
+  backdrop-filter: blur(10px);
+}
+
+.promotion-items h4 {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+.promotion-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.promotion-items li {
+  color: #FFFFFF;
+  padding: 10px 15px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.promotion-items li::before {
+  content: "✓";
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.promotion-btn {
+  display: inline-block;
+  background: #FFFFFF;
+  color: #FF4081;
+  padding: 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1em;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.promotion-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+/* 限时套餐卡片 */
+.limited-offer-card {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F8 100%);
+  border: 3px solid #FF6B9D;
+  border-radius: 25px;
+  padding: 35px;
+  margin: 30px 0;
+  box-shadow: 0 6px 25px rgba(255, 107, 157, 0.25);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.limited-offer-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 40px rgba(255, 107, 157, 0.4);
+}
+
+.limited-offer-card::before {
+  content: "🔥 限时特惠";
+  position: absolute;
+  top: 15px;
+  right: -30px;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 8px 40px;
+  font-weight: 700;
+  font-size: 0.9em;
+  transform: rotate(45deg);
+  box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
+}
+
+.limited-offer-card h3 {
+  color: #FF4081;
+  font-size: 1.8em;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px dashed #FFC0D5;
+}
+
+.offer-price-box {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.offer-price-row {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.offer-original {
+  font-size: 1.5em;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.offer-current {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #FF4081;
+}
+
+.offer-save {
+  display: inline-block;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 8px 25px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.offer-items {
+  margin: 25px 0;
+}
+
+.offer-items h4 {
+  color: #FF4081;
+  font-size: 1.1em;
+  margin: 0 0 15px 0;
+  font-weight: 600;
+}
+
+.offer-items ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.offer-items li {
+  padding: 12px 15px;
+  margin: 8px 0;
+  background: #F9F7F2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #4A4A4A;
+}
+
+.offer-items li::before {
+  content: "🌿";
+  font-size: 1.2em;
+}
+
+.offer-items li strong {
+  color: #FF6B9D;
+  font-weight: 700;
+}
+
+.offer-validity {
+  background: rgba(255, 107, 157, 0.1);
+  border-left: 4px solid #FF6B9D;
+  padding: 12px 15px;
+  border-radius: 0 8px 8px 0;
+  margin: 20px 0;
+  color: #666;
+  font-size: 0.95em;
+}
+
+.offer-validity strong {
+  color: #FF4081;
+}
+
+.offer-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 15px 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.1em;
+  box-shadow: 0 6px 20px rgba(255, 107, 157, 0.4);
+  transition: all 0.3s ease;
+}
+
+.offer-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(255, 107, 157, 0.6);
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .new-customer-card {
+    padding: 25px 20px;
+  }
+  
+  .new-customer-card h3 {
+    font-size: 1.5em;
+  }
+  
+  .current-price {
+    font-size: 2.2em;
+  }
+  
+  .price-display {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .promotion-items ul {
+    grid-template-columns: 1fr;
+  }
+  
+  .limited-offer-card {
+    padding: 25px 20px;
+  }
+  
+  .limited-offer-card::before {
+    font-size: 0.8em;
+    padding: 6px 30px;
+  }
+  
+  .offer-price-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .offer-current {
+    font-size: 2em;
+  }
+}
+
 /* === 预约悬浮框 - 活力粉色 === */
 .booking-float {
   position: fixed;
