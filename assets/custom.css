@@ -3751,3 +3751,242 @@ a:hover {
     font-size: 1.2em;
   }
 }
+
+/* === 技师团队页面 === */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.therapist-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #FFC0D5;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.therapist-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(255, 107, 157, 0.25);
+  border-color: #FF6B9D;
+}
+
+.therapist-header {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 14px 20px;
+}
+
+.therapist-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.therapist-content {
+  padding: 18px 20px;
+}
+
+.therapist-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.therapist-meta-item {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  color: #FF4081;
+  padding: 5px 12px;
+  border-radius: 16px;
+  font-size: 0.75em;
+  font-weight: 600;
+  border: 1px solid #FFC0D5;
+}
+
+.therapist-info, .therapist-case {
+  padding: 8px 0;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.therapist-info strong, .therapist-case strong {
+  color: #FF4081;
+}
+
+/* 团队优势 */
+.team-advantages {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.advantage-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border: 2px solid #FFC0D5;
+}
+
+.advantage-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.advantage-card h4 {
+  color: #FF4081;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.advantage-card p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* 资质证书页面 */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.cert-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border: 2px solid #FFC0D5;
+}
+
+.cert-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.cert-card h3 {
+  color: #FF4081;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.cert-card p {
+  color: #666;
+  font-size: 0.85em;
+  margin: 0;
+}
+
+/* 预约成功页面 */
+.success-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #4ADE80;
+  margin: 40px 0;
+}
+
+.success-icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.success-card h1 {
+  color: #4ADE80;
+  font-size: 2em;
+  font-weight: 700;
+  margin: 0 0 15px 0;
+}
+
+.success-message {
+  color: #666;
+  font-size: 1.1em;
+  margin: 0 0 25px 0;
+}
+
+.success-info {
+  background: #F9F7F2;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.success-info p {
+  margin: 0 0 10px 0;
+  color: #FF4081;
+  font-weight: 600;
+}
+
+.success-info ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.success-info li {
+  padding: 5px 0;
+  color: #4A4A4A;
+  font-size: 0.95em;
+}
+
+.success-actions {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .team-grid,
+  .team-advantages,
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .therapist-header h3 {
+    font-size: 1em;
+  }
+  
+  .therapist-content {
+    padding: 16px;
+  }
+  
+  .success-card {
+    padding: 25px;
+  }
+  
+  .success-icon {
+    font-size: 60px;
+  }
+  
+  .success-card h1 {
+    font-size: 1.5em;
+  }
+  
+  .success-actions {
+    flex-direction: column;
+  }
+  
+  .success-actions .md-button {
+    width: 100%;
+  }
+}
