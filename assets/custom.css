@@ -30,7 +30,7 @@
 }
 
 .md-header__inner {
-  padding: 15px 0;
+  padding: 4px 0;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -84,7 +84,7 @@
   color: #FFFFFF;
   border: none;
   border-radius: 25px;
-  padding: 12px 30px;
+  padding: 4px 30px;
   font-weight: 600;
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.4);
   transition: all 0.3s ease;
@@ -110,8 +110,8 @@
   background: #FFFFFF;
   border: 2px solid #FFC0D5;
   border-radius: 15px;
-  padding: 30px;
-  margin: 20px 0;
+  padding: 18px;
+  margin: 7px 0;
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
   transition: all 0.3s ease;
 }
@@ -145,7 +145,7 @@
 .price-table th {
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
-  padding: 16px;
+  padding: 10px;
   font-weight: 600;
 }
 
@@ -164,7 +164,7 @@
   border: 2px solid #FFC0D5;
   border-radius: 15px;
   padding: 25px;
-  margin: 20px 0;
+  margin: 7px 0;
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
 }
 
@@ -176,9 +176,9 @@
 /* === 会员权益卡片美化 === */
 .member-tier-card {
   background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F8 100%);
-  border-radius: 16px;
-  padding: 20px;
-  margin: 18px 0;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 11px 0;
   box-shadow: 0 4px 18px rgba(255, 107, 157, 0.18);
   transition: all 0.3s ease;
   position: relative;
@@ -221,30 +221,30 @@
 }
 
 .member-icon {
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
-  font-size: 24px;
+  font-size: 16px;
   color: #FFFFFF;
 }
 
 .member-tier-card h3 {
-  font-size: 1.2em;
+  font-size: 0.7em;
   font-weight: 700;
   margin: 0 0 12px 0;
   color: #FF4081;
 }
 
 .member-amount {
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 700;
   color: #FF6B9D;
-  margin: 12px 0;
-  padding: 10px;
+  margin: 7px 0;
+  padding: 4px;
   background: rgba(255, 107, 157, 0.1);
   border-radius: 10px;
   text-align: center;
@@ -260,16 +260,16 @@
 .member-benefits {
   list-style: none;
   padding: 0;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .member-benefits li {
-  padding: 7px 0;
+  padding: 4px 0;
   padding-left: 24px;
   position: relative;
   color: #4A4A4A;
   line-height: 1.5;
-  font-size: 0.95em;
+  font-size: 0.75em;
 }
 
 .member-benefits li::before {
@@ -288,7 +288,7 @@
   padding: 6px 16px;
   border-radius: 20px;
   font-weight: 700;
-  font-size: 0.9em;
+  font-size: 0.7em;
   margin-top: 8px;
 }
 
@@ -303,8 +303,8 @@
 .booking-method-card {
   background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F8 100%);
   border: 2px solid #FFC0D5;
-  border-radius: 16px;
-  padding: 20px;
+  border-radius: 10px;
+  padding: 12px;
   text-align: center;
   transition: all 0.3s ease;
   box-shadow: 0 3px 15px rgba(255, 107, 157, 0.12);
@@ -317,22 +317,22 @@
 }
 
 .booking-method-icon {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   margin: 0 auto 14px;
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 28px;
+  font-size: 18px;
   color: #FFFFFF;
   box-shadow: 0 3px 12px rgba(255, 107, 157, 0.3);
 }
 
 .booking-method-card h3 {
   color: #FF4081;
-  font-size: 1.1em;
+  font-size: 0.65em;
   font-weight: 700;
   margin: 0 0 12px 0;
 }
@@ -341,21 +341,21 @@
   font-size: 1em;
   font-weight: 700;
   color: #FF6B9D;
-  margin: 12px 0;
-  padding: 9px;
+  margin: 7px 0;
+  padding: 5px;
   background: rgba(255, 107, 157, 0.1);
   border-radius: 8px;
 }
 
 .booking-method-card .hours {
   color: #666;
-  font-size: 0.85em;
+  font-size: 0.65em;
   margin: 8px 0;
 }
 
 .booking-method-card .desc {
   color: #888;
-  font-size: 0.8em;
+  font-size: 0.65em;
   margin: 8px 0;
 }
 
@@ -363,11 +363,11 @@
   display: inline-block;
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
-  padding: 9px 24px;
+  padding: 5px 24px;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9em;
+  font-size: 0.7em;
   margin-top: 12px;
   transition: all 0.3s ease;
   box-shadow: 0 3px 12px rgba(255, 107, 157, 0.3);
@@ -381,15 +381,15 @@
 /* 响应式优化 */
 @media (max-width: 768px) {
   .new-customer-card {
-    padding: 18px 15px;
+    padding: 11px 15px;
   }
   
   .new-customer-card h3 {
-    font-size: 1.3em;
+    font-size: 0.7em;
   }
   
   .current-price {
-    font-size: 1.6em;
+    font-size: 1.1em;
   }
   
   .price-display {
@@ -403,7 +403,7 @@
   }
   
   .limited-offer-card {
-    padding: 18px 15px;
+    padding: 11px 15px;
   }
   
   .limited-offer-card::before {
@@ -421,11 +421,11 @@
   }
   
   .member-tier-card {
-    padding: 16px;
+    padding: 10px;
   }
   
   .member-amount {
-    font-size: 1.2em;
+    font-size: 0.7em;
   }
   
   .booking-methods-grid {
@@ -433,13 +433,13 @@
   }
   
   .booking-method-card {
-    padding: 16px;
+    padding: 10px;
   }
   
   .booking-method-icon {
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
   }
 }
 
@@ -448,8 +448,8 @@
   background: #FFFFFF;
   border-left: 4px solid #FF6B9D;
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 12px;
+  margin: 7px 0;
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.1);
 }
 
@@ -463,7 +463,7 @@
   background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
   border: 2px solid #FFC0D5;
   border-radius: 12px;
-  padding: 20px;
+  padding: 12px;
   text-align: center;
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.15);
   transition: all 0.3s ease;
@@ -480,7 +480,7 @@
   background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F8 100%);
   border: 2px solid #FFC0D5;
   border-radius: 20px;
-  padding: 30px;
+  padding: 18px;
   margin: 30px 0;
   box-shadow: 0 6px 25px rgba(255, 107, 157, 0.2);
   display: flex;
@@ -512,7 +512,7 @@
 .team-info h4 {
   color: #FF4081;
   font-weight: 700;
-  font-size: 1.4em;
+  font-size: 1em;
   margin: 0 0 12px 0;
   display: flex;
   align-items: center;
@@ -521,7 +521,7 @@
 
 .team-info h4::before {
   content: "💆‍♀️";
-  font-size: 1.2em;
+  font-size: 0.7em;
 }
 
 .team-info strong {
@@ -542,7 +542,7 @@
   color: #FFFFFF;
   padding: 4px 12px;
   border-radius: 20px;
-  font-size: 0.85em;
+  font-size: 0.65em;
   font-weight: 600;
   margin-left: 10px;
 }
@@ -560,7 +560,7 @@
   color: #FF4081;
   padding: 5px 12px;
   border-radius: 15px;
-  font-size: 0.9em;
+  font-size: 0.7em;
   border: 1px solid #FFC0D5;
 }
 
@@ -568,10 +568,10 @@
 .team-case {
   background: #F9F7F2;
   border-left: 4px solid #FF6B9D;
-  padding: 12px 15px;
+  padding: 4px 15px;
   border-radius: 0 8px 8px 0;
-  margin: 12px 0;
-  font-size: 0.95em;
+  margin: 7px 0;
+  font-size: 0.75em;
   color: #666666;
 }
 
@@ -584,7 +584,7 @@
   .team-card {
     flex-direction: column;
     text-align: center;
-    padding: 20px;
+    padding: 12px;
   }
   
   .team-photo {
@@ -628,10 +628,10 @@
 /* 新客专享卡片 */
 .new-customer-card {
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 50%, #EA80FC 100%);
-  border-radius: 18px;
-  padding: 25px;
-  margin: 25px 0;
-  box-shadow: 0 6px 25px rgba(255, 107, 157, 0.35);
+  border-radius: 10px;
+  padding: 14px;
+  margin: 11px 0;
+  box-shadow: 0 4px 18px rgba(255, 107, 157, 0.28);
   position: relative;
   overflow: hidden;
   color: #FFFFFF;
@@ -640,9 +640,9 @@
 .new-customer-card::before {
   content: "🎁";
   position: absolute;
-  top: -10px;
-  right: -10px;
-  font-size: 100px;
+  top: -5px;
+  right: -5px;
+  font-size: 60px;
   opacity: 0.1;
   transform: rotate(15deg);
 }
@@ -650,47 +650,47 @@
 .new-customer-card::after {
   content: "NEW";
   position: absolute;
-  top: 12px;
-  left: 12px;
+  top: 8px;
+  left: 8px;
   background: #FFFFFF;
   color: #FF6B9D;
-  padding: 5px 14px;
-  border-radius: 16px;
+  padding: 3px 9px;
+  border-radius: 10px;
   font-weight: 700;
-  font-size: 0.8em;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  font-size: 0.7em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
 
 .new-customer-card h3 {
   color: #FFFFFF;
-  font-size: 1.5em;
+  font-size: 0.65em;
   font-weight: 700;
-  margin: 0 0 15px 0;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin: 0 0 10px 0;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.18);
 }
 
 .price-display {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin: 15px 0;
+  gap: 8px;
+  margin: 10px 0;
   flex-wrap: wrap;
 }
 
 .current-price {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 700;
   color: #FFFFFF;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.25);
+  text-shadow: 0 2px 6px rgba(0,0,0,0.18);
 }
 
 .current-price small {
-  font-size: 0.45em;
+  font-size: 0.5em;
   opacity: 0.9;
 }
 
 .original-price {
-  font-size: 1.1em;
+  font-size: 0.65em;
   color: rgba(255,255,255,0.85);
   text-decoration: line-through;
 }
@@ -699,25 +699,25 @@
   display: inline-block;
   background: #FFFFFF;
   color: #FF4081;
-  padding: 5px 14px;
-  border-radius: 18px;
+  padding: 3px 9px;
+  border-radius: 11px;
   font-weight: 700;
-  font-size: 0.9em;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+  font-size: 0.75em;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
 
 .promotion-items {
   background: rgba(255,255,255,0.15);
-  border-radius: 12px;
-  padding: 15px 18px;
-  margin: 18px 0;
+  border-radius: 8px;
+  padding: 4px 12px;
+  margin: 7px 0;
   backdrop-filter: blur(10px);
 }
 
 .promotion-items h4 {
   color: #FFFFFF;
-  font-size: 1em;
-  margin: 0 0 12px 0;
+  font-size: 0.65em;
+  margin: 0 0 8px 0;
   font-weight: 600;
 }
 
@@ -726,53 +726,53 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 7px;
 }
 
 .promotion-items li {
   color: #FFFFFF;
-  padding: 8px 12px;
+  padding: 5px 8px;
   background: rgba(255,255,255,0.1);
-  border-radius: 8px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  font-size: 0.95em;
+  gap: 6px;
+  font-size: 0.65em;
 }
 
 .promotion-items li::before {
   content: "✓";
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 0.65em;
 }
 
 .promotion-btn {
   display: inline-block;
   background: #FFFFFF;
   color: #FF4081;
-  padding: 11px 28px;
-  border-radius: 24px;
+  padding: 4px 18px;
+  border-radius: 15px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.95em;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  font-size: 0.65em;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
   transition: all 0.3s ease;
 }
 
 .promotion-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 6px 22px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.18);
 }
 
 /* 限时套餐卡片 */
 .limited-offer-card {
   background: linear-gradient(135deg, #FFFFFF 0%, #FFF5F8 100%);
   border: 2px solid #FF6B9D;
-  border-radius: 18px;
-  padding: 22px;
-  margin: 25px 0;
+  border-radius: 10px;
+  padding: 13px;
+  margin: 11px 0;
   box-shadow: 0 5px 20px rgba(255, 107, 157, 0.2);
   position: relative;
   overflow: hidden;
@@ -800,7 +800,7 @@
 
 .limited-offer-card h3 {
   color: #FF4081;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 700;
   margin: 0 0 15px 0;
   padding-bottom: 10px;
@@ -809,9 +809,9 @@
 
 .offer-price-box {
   background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
-  border-radius: 14px;
-  padding: 18px;
-  margin: 15px 0;
+  border-radius: 9px;
+  padding: 11px;
+  margin: 10px 0;
   text-align: center;
 }
 
@@ -819,18 +819,18 @@
   display: flex;
   justify-content: center;
   align-items: baseline;
-  gap: 15px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
 .offer-original {
-  font-size: 1.1em;
+  font-size: 0.65em;
   color: #999;
   text-decoration: line-through;
 }
 
 .offer-current {
-  font-size: 1.8em;
+  font-size: 0.7em;
   font-weight: 700;
   color: #FF4081;
 }
@@ -839,20 +839,20 @@
   display: inline-block;
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
-  padding: 5px 18px;
-  border-radius: 16px;
+  padding: 3px 11px;
+  border-radius: 10px;
   font-weight: 700;
-  font-size: 0.85em;
+  font-size: 0.65em;
   margin-top: 8px;
 }
 
 .offer-items {
-  margin: 18px 0;
+  margin: 11px 0;
 }
 
 .offer-items h4 {
   color: #FF4081;
-  font-size: 0.95em;
+  font-size: 0.75em;
   margin: 0 0 12px 0;
   font-weight: 600;
 }
@@ -864,7 +864,7 @@
 }
 
 .offer-items li {
-  padding: 9px 12px;
+  padding: 5px 12px;
   margin: 6px 0;
   background: #F9F7F2;
   border-radius: 8px;
@@ -872,7 +872,7 @@
   align-items: center;
   gap: 10px;
   color: #4A4A4A;
-  font-size: 0.95em;
+  font-size: 0.75em;
 }
 
 .offer-items li::before {
@@ -888,11 +888,11 @@
 .offer-validity {
   background: rgba(255, 107, 157, 0.1);
   border-left: 3px solid #FF6B9D;
-  padding: 9px 12px;
+  padding: 5px 12px;
   border-radius: 0 6px 6px 0;
-  margin: 15px 0;
+  margin: 10px 0;
   color: #666;
-  font-size: 0.85em;
+  font-size: 0.65em;
 }
 
 .offer-validity strong {
@@ -903,11 +903,11 @@
   display: inline-block;
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
-  padding: 11px 28px;
+  padding: 4px 18px;
   border-radius: 24px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 0.95em;
+  font-size: 0.75em;
   box-shadow: 0 4px 15px rgba(255, 107, 157, 0.3);
   transition: all 0.3s ease;
 }
@@ -945,7 +945,7 @@
   }
   
   .limited-offer-card::before {
-    font-size: 0.8em;
+    font-size: 0.65em;
     padding: 6px 30px;
   }
   
@@ -966,7 +966,7 @@
   right: 20px;
   background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
   color: #FFFFFF;
-  padding: 20px;
+  padding: 12px;
   border-radius: 15px;
   box-shadow: 0 4px 25px rgba(255, 107, 157, 0.5);
   z-index: 999;
@@ -982,7 +982,7 @@
 .float-btn {
   background: #FFFFFF;
   color: #FF4081;
-  padding: 10px 25px;
+  padding: 4px 25px;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 600;
@@ -1061,7 +1061,7 @@ blockquote {
   border-left: 4px solid #FF6B9D;
   background: #FFF5F8;
   padding: 15px 20px;
-  margin: 20px 0;
+  margin: 7px 0;
   border-radius: 0 10px 10px 0;
   color: #666666;
 }
@@ -1118,7 +1118,7 @@ a:hover {
 /* === 响应式优化 === */
 @media (max-width: 768px) {
   .hero-section h1 {
-    font-size: 1.8em;
+    font-size: 0.7em;
     letter-spacing: 2px;
   }
   
@@ -1162,7 +1162,7 @@ a:hover {
   
   /* 按钮缩小 */
   .md-button {
-    padding: 10px 20px;
+    padding: 4px 20px;
     font-size: 14px;
   }
   
@@ -1182,7 +1182,7 @@ a:hover {
   }
   
   .hero-section h3 {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   
   /* 环境展示图片单列显示 */
