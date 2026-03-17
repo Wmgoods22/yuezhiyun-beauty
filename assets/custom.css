@@ -3477,3 +3477,277 @@ a:hover {
     padding: 14px;
   }
 }
+
+/* === 顾客评价页面 - 统一卡片风格 === */
+/* 评价卡片 */
+.review-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 0;
+  margin: 20px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #FFC0D5;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 25px rgba(255, 107, 157, 0.2);
+  border-color: #FF6B9D;
+}
+
+.review-header {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-avatar {
+  font-size: 32px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info strong {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.user-type {
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+
+.review-rating {
+  color: #FFD700;
+  font-size: 1.3em;
+  letter-spacing: 3px;
+}
+
+.review-content {
+  padding: 18px 20px;
+}
+
+.review-content p {
+  margin: 0;
+  color: #4A4A4A;
+  font-size: 0.95em;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.review-meta {
+  background: #F9F7F2;
+  padding: 12px 20px;
+  border-top: 1px dashed #FFC0D5;
+}
+
+.meta-item {
+  color: #666;
+  font-size: 0.85em;
+}
+
+/* 评分统计卡片 */
+.rating-stats-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 0;
+  margin: 25px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #FFC0D5;
+  overflow: hidden;
+}
+
+.rating-overview {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 22px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rating-score {
+  text-align: center;
+}
+
+.score-number {
+  display: block;
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.score-total {
+  font-size: 1.2em;
+  opacity: 0.9;
+}
+
+.rating-bars {
+  flex: 1;
+  min-width: 200px;
+}
+
+.rating-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.bar-label {
+  font-size: 0.85em;
+  width: 30px;
+}
+
+.bar-bg {
+  flex: 1;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: #FFFFFF;
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+.bar-value {
+  font-size: 0.85em;
+  width: 35px;
+  text-align: right;
+}
+
+.rating-tags {
+  padding: 18px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.rating-tag {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  color: #FF4081;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  border: 1px solid #FFC0D5;
+}
+
+/* 提交评价卡片 */
+.submit-review-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 0;
+  margin: 25px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 2px solid #FFC0D5;
+  overflow: hidden;
+}
+
+.review-form-header {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 16px 22px;
+}
+
+.review-form-header h3 {
+  margin: 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.review-form-content {
+  padding: 22px;
+}
+
+.rating-input {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.rating-input label {
+  cursor: pointer;
+  font-size: 1.5em;
+  color: #FFD700;
+  transition: transform 0.2s ease;
+}
+
+.rating-input label:hover {
+  transform: scale(1.1);
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .review-header {
+    padding: 14px 16px;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  
+  .review-rating {
+    align-self: flex-end;
+  }
+  
+  .review-content {
+    padding: 16px;
+  }
+  
+  .review-meta {
+    padding: 12px 16px;
+  }
+  
+  .rating-overview {
+    flex-direction: column;
+    gap: 20px;
+    padding: 18px;
+  }
+  
+  .score-number {
+    font-size: 2.5em;
+  }
+  
+  .rating-tags {
+    padding: 16px;
+  }
+  
+  .review-form-header {
+    padding: 14px 16px;
+  }
+  
+  .review-form-header h3 {
+    font-size: 1.1em;
+  }
+  
+  .review-form-content {
+    padding: 16px;
+  }
+  
+  .rating-input {
+    gap: 10px;
+  }
+  
+  .rating-input label {
+    font-size: 1.2em;
+  }
+}
