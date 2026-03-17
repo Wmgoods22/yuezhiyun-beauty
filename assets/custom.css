@@ -2500,3 +2500,391 @@ a:hover {
 .md-content {
   animation: fadeIn 0.5s ease;
 }
+
+/* === 价格套餐页面 - 统一卡片风格 === */
+/* 会员卡片 */
+.member-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 0;
+  margin: 25px 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(255, 107, 157, 0.25);
+}
+
+.member-card.silver { border: 2px solid #C0C0C0; }
+.member-card.gold { border: 2px solid #FFD700; }
+.member-card.diamond { border: 2px solid #B9F2FF; }
+
+.member-header {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.member-card.silver .member-header { background: linear-gradient(135deg, #C0C0C0 0%, #A8A8A8 100%); }
+.member-card.gold .member-header { background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%); }
+.member-card.diamond .member-header { background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%); }
+
+.member-header h3 { margin: 0; font-size: 1.3em; font-weight: 700; }
+
+.member-badge {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.member-badge.highlight { background: #FFFFFF; color: #FFA500; }
+.member-badge.premium { background: #FFFFFF; color: #0891B2; }
+
+.member-content { padding: 22px; }
+
+.member-amount {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.amount-label { display: block; font-size: 0.85em; color: #888; margin-bottom: 8px; }
+.amount-value { display: block; font-size: 2em; font-weight: 700; color: #FF4081; }
+
+.member-benefits h4, .member-extra h4 {
+  color: #FF4081;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 20px 0 12px 0;
+}
+
+.member-benefits ul, .member-extra ul {
+  list-style: none;
+  padding: 0 0 0 28px;
+  margin: 0;
+}
+
+.member-benefits li, .member-extra li {
+  padding: 8px 0;
+  color: #4A4A4A;
+  font-size: 0.95em;
+  position: relative;
+}
+
+.member-benefits li::before {
+  content: "✓";
+  position: absolute;
+  left: -20px;
+  color: #4ADE80;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.member-extra li::before {
+  content: "🎁";
+  position: absolute;
+  left: -20px;
+  font-size: 1em;
+}
+
+.member-cta { text-align: center; margin-top: 20px; }
+.member-cta .md-button { padding: 12px 40px; font-size: 1em; font-weight: 700; }
+
+/* 促销卡片 */
+.package-card.promotional {
+  border-color: #FFD700;
+}
+
+.promo-note {
+  background: linear-gradient(135deg, #FFF9E6 0%, #FFF3CC 100%);
+  border-left: 4px solid #FFD700;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.promo-note h4 {
+  color: #B8860B;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.promo-note p {
+  color: #4A4A4A;
+  font-size: 0.9em;
+  margin: 0 0 10px 0;
+}
+
+.promo-note ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 0;
+}
+
+.promo-note li {
+  padding: 5px 0;
+  color: #4A4A4A;
+  font-size: 0.85em;
+}
+
+/* 服务特色网格 */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.service-feature-card {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #FF6B9D;
+  text-align: center;
+}
+
+.feature-icon {
+  font-size: 48px;
+  color: #FF6B9D;
+  margin-bottom: 12px;
+}
+
+.service-feature-card h4 {
+  color: #FF4081;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.service-feature-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.service-feature-card li {
+  padding: 6px 0;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  border-bottom: 1px dashed #FFC0D5;
+}
+
+.service-feature-card li:last-child {
+  border-bottom: none;
+}
+
+/* 信息卡片 */
+.info-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin: 25px 0;
+}
+
+.info-card h3 {
+  color: #FF4081;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 20px 0 15px 0;
+}
+
+.info-card h3:first-child {
+  margin-top: 0;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 15px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(255, 107, 157, 0.1);
+  border: 1px solid #FFC0D5;
+}
+
+.info-table thead {
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+}
+
+.info-table th {
+  padding: 12px 16px;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.info-table tbody tr {
+  background: #FFFFFF;
+}
+
+.info-table tbody tr:nth-child(even) {
+  background: #FFF5F8;
+}
+
+.info-table tbody tr:hover {
+  background: #FFE4EC;
+}
+
+.info-table td {
+  padding: 12px 16px;
+  color: #4A4A4A;
+  font-size: 0.9em;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+/* 积分兑换 */
+.points-exchange {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.exchange-item {
+  background: linear-gradient(135deg, #FFF5F8 0%, #FFE4EC 100%);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #FFC0D5;
+}
+
+.exchange-item .points {
+  display: block;
+  font-size: 0.9em;
+  color: #FF4081;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.exchange-item .equals {
+  display: block;
+  font-size: 1.2em;
+  color: #FF6B9D;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.exchange-item .value {
+  display: block;
+  font-size: 0.95em;
+  color: #4A4A4A;
+  font-weight: 600;
+}
+
+/* 办理流程 */
+.process-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.process-step {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border: 2px solid #FFC0D5;
+  position: relative;
+}
+
+.process-step:hover {
+  border-color: #FF6B9D;
+  transform: translateY(-3px);
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #FF6B9D 0%, #FF4081 100%);
+  color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 0 auto 15px auto;
+}
+
+.process-step h4 {
+  color: #FF4081;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.process-step ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.process-step li {
+  padding: 5px 0;
+  color: #4A4A4A;
+  font-size: 0.85em;
+  border-bottom: 1px dashed #FFC0D5;
+}
+
+.process-step li:last-child {
+  border-bottom: none;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .member-header {
+    padding: 14px 16px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .member-header h3 {
+    font-size: 1.1em;
+  }
+  
+  .member-content {
+    padding: 16px;
+  }
+  
+  .amount-value {
+    font-size: 1.6em;
+  }
+  
+  .service-grid,
+  .points-exchange,
+  .process-steps {
+    grid-template-columns: 1fr;
+  }
+  
+  .package-table,
+  .info-table {
+    font-size: 0.75em;
+  }
+  
+  .package-table th,
+  .package-table td,
+  .info-table th,
+  .info-table td {
+    padding: 8px 6px;
+  }
+}
